@@ -3,37 +3,85 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="About | Pong News" description="Pong News is the first website dedicated to the science of table tennis and health.">
-  <div style="max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem;">
-    
-    <h1 style="font-family: var(--serif); font-size: 2.2rem; font-weight: 700; letter-spacing: -0.025em; margin: 0; color: var(--text-strong);">About Pong News</h1>
-    
-    <div class="prose" style="margin-top: 2rem;">
+  <div class="about-page">
+
+    <h1 class="about-page__title">About Pong News</h1>
+
+    <div class="prose about-page__prose">
       <p><strong>Pong News</strong> is the first website dedicated to the science of table tennis and health. Every article on this site is based on peer-reviewed scientific research published in reputable medical and sports science journals.</p>
-      
-      <h2>Why This Matters</h2>
-      <p>Table tennis is one of the most popular sports in the world, played by an estimated 300+ million people globally. Yet most players have no idea about the extraordinary scientific evidence showing that this sport can extend life, prevent dementia, strengthen bones, and transform aging.</p>
-      <p>We exist to change that.</p>
-
-      <h2>Our Standards</h2>
-      <ul>
-        <li>Every health claim links to a specific peer-reviewed study</li>
-        <li>We cite journal names, publication years, and authors</li>
-        <li>We report effect sizes and statistical significance, not just "studies show"</li>
-        <li>We never exaggerate findings beyond what the data supports</li>
-        <li>We distinguish between correlation and causation</li>
-      </ul>
-
-      <h2>What We Cover</h2>
-      <ul>
-        <li><strong>Longevity:</strong> Life expectancy data, mortality reduction, aging biomarkers</li>
-        <li><strong>Cognitive Health:</strong> Alzheimer's, dementia, BDNF, neuroplasticity, brain structure</li>
-        <li><strong>Physical Health:</strong> Bone density, balance, fall prevention, cardiovascular fitness</li>
-        <li><strong>Rehabilitation:</strong> Parkinson's, stroke recovery, motor control, therapy</li>
-        <li><strong>Mental Health:</strong> Depression, anxiety, social isolation, quality of life</li>
-      </ul>
-
-      <h2>Contact</h2>
-      <p>Have a study we should cover? Want to contribute? Reach us at <strong>hello@pongnews.com</strong></p>
     </div>
+
+    <!-- Why this exists -->
+    <div class="about-standout">
+      <h2 class="about-standout__title">Why This Site Exists</h2>
+      <p>Table tennis is one of the most popular sports in the world, played by an estimated 300+ million people globally. Yet most players have no idea about the extraordinary scientific evidence showing that this sport can extend life, prevent dementia, strengthen bones, and transform aging.</p>
+      <p><strong>Nobody is aggregating this research.</strong> Studies are scattered across dozens of journals, locked behind paywalls, and written in dense academic language. Pong News bridges that gap — making the science accessible, accurate, and actionable.</p>
+    </div>
+
+    <!-- Methodology -->
+    <div class="about-methodology">
+      <h2 class="about-section__title">Our Methodology</h2>
+      <p class="prose">Every article follows a rigorous research process:</p>
+      <ul class="about-methodology__list">
+        <li class="about-methodology__item">
+          <span class="about-methodology__marker">01</span>
+          <span>We search PubMed, Google Scholar, and major journal databases for peer-reviewed studies on table tennis and health outcomes</span>
+        </li>
+        <li class="about-methodology__item">
+          <span class="about-methodology__marker">02</span>
+          <span>Every health claim links to a specific peer-reviewed study with journal name, publication year, and authors</span>
+        </li>
+        <li class="about-methodology__item">
+          <span class="about-methodology__marker">03</span>
+          <span>We report effect sizes and statistical significance, not just "studies show"</span>
+        </li>
+        <li class="about-methodology__item">
+          <span class="about-methodology__marker">04</span>
+          <span>We never exaggerate findings beyond what the data supports</span>
+        </li>
+        <li class="about-methodology__item">
+          <span class="about-methodology__marker">05</span>
+          <span>We clearly distinguish between correlation and causation</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- What we cover -->
+    <div class="about-section">
+      <h2 class="about-section__title">What We Cover</h2>
+      <div class="prose">
+        <ul>
+          <li><strong>Longevity:</strong> Life expectancy data, mortality reduction, aging biomarkers</li>
+          <li><strong>Cognitive Health:</strong> Alzheimer's, dementia, BDNF, neuroplasticity, brain structure</li>
+          <li><strong>Physical Health:</strong> Bone density, balance, fall prevention, cardiovascular fitness</li>
+          <li><strong>Rehabilitation:</strong> Parkinson's, stroke recovery, motor control, therapy</li>
+          <li><strong>Mental Health:</strong> Depression, anxiety, social isolation, quality of life</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Credibility -->
+    <div class="about-section">
+      <h2 class="about-section__title">Our Standards</h2>
+      <div class="prose">
+        <ul>
+          <li>Every health claim is traced to a specific peer-reviewed study</li>
+          <li>We cite journal names, publication years, and lead authors</li>
+          <li>We report effect sizes and statistical significance</li>
+          <li>We never overstate findings or cherry-pick data</li>
+          <li>We distinguish between observational and experimental evidence</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="about-section">
+      <h2 class="about-section__title">Get in Touch</h2>
+      <div class="prose">
+        <p>Have a study we should cover? Want to contribute? Spot an error in our reporting?</p>
+        <p>Reach us at <strong>hello@pongnews.com</strong></p>
+      </div>
+    </div>
+
   </div>
 </Layout>

@@ -7,7 +7,7 @@ export async function getStaticPaths() {
   const categories = [...new Set(articles.map(a => a.data.category))];
   return categories.map(category => ({
     params: { name: category },
-    props: { 
+    props: {
       category,
       articles: articles
         .filter(a => a.data.category === category)
@@ -18,42 +18,46 @@ export async function getStaticPaths() {
 
 const { category, articles } = Astro.props;
 const allArticles = await getCollection('articles');
-const allCategories = [...new Set(allArticles.map(a => a.data.category))];
+const allCategories = [...new Set(allArticles.map(a => a.data.category))].sort();
+
+const categoryDescriptions: Record<string, string> = {
+  "Longevity": "How table tennis extends lifespan, reduces mortality risk, and transforms aging. Research on life expectancy, mortality reduction, and aging biomarkers.",
+  "Cognitive Health": "The neuroscience of ping pong: Alzheimer's defense, dementia prevention, BDNF production, neuroplasticity, and brain structure changes.",
+  "Physical Health": "Bone density, balance, fall prevention, cardiovascular fitness, and musculoskeletal benefits of regular table tennis play.",
+  "Rehabilitation": "How table tennis aids recovery from Parkinson's, stroke, and other conditions. Motor control, therapy, and clinical outcomes.",
+  "Mental Health": "Depression, anxiety, social isolation, quality of life, and psychological well-being benefits of table tennis.",
+};
+const description = categoryDescriptions[category] || `Articles about table tennis and ${category.toLowerCase()}. Backed by peer-reviewed research.`;
 ---
 
-<Layout title={`${category} | Pong News`} description={`Articles about table tennis and ${category.toLowerCase()}. Backed by peer-reviewed research.`}>
-  <div style="max-width: 48rem; margin: 0 auto; padding: 2.5rem 1.25rem;">
-    <a href="/articles" style="font-size: 0.8rem; color: var(--text-soft); text-decoration: none;">← All Articles</a>
-    <h1 style="font-family: var(--serif); font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; margin: 0.5rem 0 0; color: var(--text-strong);">{category}</h1>
-    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.3rem;">{articles.length} article{articles.length !== 1 ? 's' : ''}</p>
+<Layout title={`${category} | Pong News`} description={description}>
+  <div class="page-header page-header--wide">
+    <a href="/articles" class="page-header__back-link">&larr; All Articles</a>
+    <h1 class="page-header__title">{category}</h1>
+    <p class="page-header__subtitle">{description}</p>
 
-    <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 2rem;">
+    <!-- Category Filters -->
+    <div class="category-filters">
       {allCategories.map(cat => (
-        <a href={`/category/${encodeURIComponent(cat)}`} 
-          style={`padding: 0.3rem 0.8rem; border-radius: 999px; font-size: 0.8rem; text-decoration: none; font-weight: 500; ${
-            cat === category 
-              ? 'background: var(--text-strong); color: var(--bg);' 
-              : 'background: var(--bg-subtle); color: var(--text-muted); border: 1px solid var(--border);'
-          }`}>
+        <a href={`/category/${encodeURIComponent(cat)}`}
+           class={`category-pill ${cat === category ? 'category-pill--active' : 'category-pill--inactive'}`}>
           {cat}
         </a>
       ))}
     </div>
+  </div>
 
-    <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+  <div class="container container--wide">
+    <div class="article-list">
       {articles.map((article) => (
-        <a href={`/article/${article.id}`} style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.25rem 1.5rem; text-decoration: none; color: inherit; display: block; transition: border-color 0.15s;">
-          <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.3rem;">
-            <span style="font-size: 0.75rem; color: var(--text-faint);">
+        <a href={`/article/${article.id}`} class="article-list-card">
+          <div class="article-list-card__meta">
+            <span class="article-list-card__date">
               {article.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
             </span>
           </div>
-          <h2 style="font-family: var(--serif); font-weight: 600; font-size: 1.15rem; line-height: 1.3; margin: 0; letter-spacing: -0.01em; color: var(--text-strong);">
-            {article.data.title}
-          </h2>
-          <p style="margin-top: 0.4rem; font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
-            {article.data.summary}
-          </p>
+          <h2 class="article-list-card__title">{article.data.title}</h2>
+          <p class="article-list-card__excerpt">{article.data.summary}</p>
         </a>
       ))}
     </div>

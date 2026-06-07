@@ -4,28 +4,34 @@ import { getCollection } from 'astro:content';
 
 const articles = await getCollection('articles');
 const sorted = articles.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const categories = [...new Set(articles.map(a => a.data.category))].sort();
 ---
 
 <Layout title="All Articles | Pong News" description="Browse all peer-reviewed research articles on table tennis health benefits.">
-  <div style="max-width: 48rem; margin: 0 auto; padding: 2.5rem 1.25rem;">
-    <h1 style="font-family: var(--serif); font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; margin: 0; color: var(--text-strong);">All Articles</h1>
-    <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.4rem;">Every claim backed by peer-reviewed research.</p>
+  <div class="page-header page-header--wide">
+    <h1 class="page-header__title">All Articles</h1>
+    <p class="page-header__subtitle">Every claim backed by peer-reviewed research.</p>
 
-    <div style="margin-top: 2rem; display: flex; flex-direction: column; gap: 0.75rem;">
+    <!-- Category Filters -->
+    <div class="category-filters">
+      {categories.map(cat => (
+        <a href={`/category/${encodeURIComponent(cat)}`} class="category-pill category-pill--inactive">{cat}</a>
+      ))}
+    </div>
+  </div>
+
+  <div class="container container--wide">
+    <div class="articles-page-grid">
       {sorted.map((article) => (
-        <a href={`/article/${article.id}`} style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.25rem 1.5rem; text-decoration: none; color: inherit; display: block; transition: border-color 0.15s, box-shadow 0.15s;">
-          <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.3rem;">
+        <a href={`/article/${article.id}`} class="article-list-card">
+          <div class="article-list-card__meta">
             <span class="tag">{article.data.category}</span>
-            <span style="font-size: 0.75rem; color: var(--text-faint);">
+            <span class="article-list-card__date">
               {article.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
             </span>
           </div>
-          <h2 style="font-family: var(--serif); font-weight: 600; font-size: 1.15rem; line-height: 1.3; margin: 0; letter-spacing: -0.01em; color: var(--text-strong);">
-            {article.data.title}
-          </h2>
-          <p style="margin-top: 0.4rem; font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
-            {article.data.summary}
-          </p>
+          <h2 class="article-list-card__title">{article.data.title}</h2>
+          <p class="article-list-card__excerpt">{article.data.summary}</p>
         </a>
       ))}
     </div>

@@ -12,6 +12,7 @@ interface Props {
 
 const { title, description = 'The science of table tennis and health. Peer-reviewed research on how ping pong extends life, protects the brain, and transforms aging.', ogImage, article = false, pubDate, tags = [] } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const currentYear = new Date().getFullYear();
 ---
 
 <!doctype html>
@@ -20,14 +21,20 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#faf9f7" />
+
+    <!-- Preload Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;1,8..60,400;1,8..60,500&display=swap" />
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;1,8..60,400;1,8..60,500&display=swap" rel="stylesheet" />
+
+    <!-- SVG Favicon (table tennis paddle) -->
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
     <link rel="canonical" href={canonicalURL} />
     <title>{title}</title>
     <meta name="description" content={description} />
-    
+
     <!-- Open Graph -->
     <meta property="og:type" content={article ? 'article' : 'website'} />
     <meta property="og:url" content={canonicalURL} />
@@ -36,65 +43,77 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:site_name" content="Pong News" />
     {pubDate && <meta property="article:published_time" content={pubDate.toISOString()} />}
     {tags.map(tag => <meta property="article:tag" content={tag} />)}
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Pong News",
+      "url": "https://pongnews.com",
+      "description": description
+    })} />
   </head>
   <body>
+
     <!-- Navigation -->
-    <nav style="border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; background: rgba(250,249,247,0.92); backdrop-filter: blur(12px);">
-      <div style="max-width: 48rem; margin: 0 auto; padding: 0.75rem 1.25rem; display: flex; align-items: center; justify-content: space-between;">
-        <a href="/" style="display: flex; align-items: center; gap: 0.6rem; text-decoration: none; color: var(--text-strong);">
-          <span style="font-size: 1.5rem;">🏓</span>
-          <span style="font-family: var(--serif); font-weight: 700; font-size: 1.15rem; letter-spacing: -0.02em;">Pong News</span>
+    <nav class="site-nav" aria-label="Main navigation">
+      <div class="site-nav__inner">
+        <a href="/" class="site-nav__logo">
+          <span class="site-nav__logo-icon" aria-hidden="true">&#127955;</span>
+          <span class="site-nav__logo-text">Pong News</span>
         </a>
-        <div style="display: flex; gap: 1.5rem; font-size: 0.85rem;">
-          <a href="/articles" style="color: var(--text-muted); text-decoration: none; transition: color 0.15s;">Articles</a>
-          <a href="/category/Longevity" style="color: var(--text-muted); text-decoration: none;">Longevity</a>
-          <a href="/category/Cognitive+Health" style="color: var(--text-muted); text-decoration: none;">Brain</a>
-          <a href="/about" style="color: var(--text-muted); text-decoration: none;">About</a>
-        </div>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+          <span></span>
+        </label>
+
+        <ul class="site-nav__links">
+          <li><a href="/articles">Articles</a></li>
+          <li><a href="/category/Longevity">Longevity</a></li>
+          <li><a href="/category/Cognitive%20Health">Brain</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
       </div>
     </nav>
 
-    <main style="min-height: 70vh;">
+    <main class="site-main">
       <slot />
     </main>
 
     <!-- Footer -->
-    <footer style="border-top: 1px solid var(--border); margin-top: 6rem;">
-      <div style="max-width: 48rem; margin: 0 auto; padding: 3rem 1.25rem;">
-        
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+
         <!-- Newsletter -->
-        <div style="background: var(--accent-tint); border: 1px solid var(--accent-soft); border-radius: var(--radius-lg); padding: 2rem; margin-bottom: 2rem;">
-          <h3 style="font-family: var(--serif); font-weight: 700; font-size: 1.2rem; color: var(--text-strong); margin: 0;">The Weekly Pong</h3>
-          <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0.4rem 0 0;">One science-backed insight, delivered weekly. No spam.</p>
-          <form style="margin-top: 1rem; display: flex; gap: 0.5rem;" action="https://formspree.io/f/placeholder" method="POST">
-            <input type="email" name="email" placeholder="your@email.com" required 
-              style="flex: 1; padding: 0.5rem 0.75rem; border: 1px solid var(--border); border-radius: var(--radius-sm); font-family: var(--sans); font-size: 0.9rem; background: var(--bg-panel); outline: none;"
-            />
-            <button type="submit" 
-              style="background: var(--accent); color: white; padding: 0.5rem 1.25rem; border: none; border-radius: var(--radius-sm); font-weight: 500; font-size: 0.85rem; cursor: pointer;">
-              Subscribe
-            </button>
+        <div class="newsletter-box">
+          <h3 class="newsletter-box__title">The Weekly Pong</h3>
+          <p class="newsletter-box__text">One science-backed insight, delivered weekly. No spam.</p>
+          <form class="newsletter-box__form" action="https://formspree.io/f/placeholder" method="POST">
+            <input type="email" name="email" placeholder="your@email.com" required class="newsletter-box__input" />
+            <button type="submit" class="newsletter-box__button">Subscribe</button>
           </form>
         </div>
 
-        <div style="display: flex; justify-content: space-between; align-items: start; gap: 2rem; font-size: 0.8rem; color: var(--text-faint);">
+        <div class="footer-columns">
           <div>
-            <div style="font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;">Pong News</div>
+            <div class="footer-columns__brand-name">Pong News</div>
             <div>Where table tennis meets science.<br/>All claims backed by peer-reviewed research.</div>
           </div>
-          <div style="display: flex; gap: 1.5rem;">
-            <a href="/about" style="color: var(--text-faint); text-decoration: none;">About</a>
-            <a href="/articles" style="color: var(--text-faint); text-decoration: none;">Articles</a>
-            <a href="/sitemap-index.xml" style="color: var(--text-faint); text-decoration: none;">Sitemap</a>
+          <div class="footer-columns__links">
+            <a href="/about">About</a>
+            <a href="/articles">Articles</a>
+            <a href="/sitemap-index.xml">Sitemap</a>
           </div>
         </div>
-        <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border); text-align: center; font-size: 0.75rem; color: var(--text-faint);">
-          2025 Pong News. All rights reserved.
+
+        <div class="footer-bottom">
+          {currentYear} Pong News. All rights reserved.
         </div>
       </div>
     </footer>
