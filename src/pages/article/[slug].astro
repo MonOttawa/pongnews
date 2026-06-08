@@ -115,8 +115,14 @@ const related = allArticles
         <div class="related-articles__grid">
           {related.map(({ article: r }) => (
             <a href={`/article/${r.id}`} class="related-card">
-              <div class="related-card__category">{r.data.category}</div>
-              <div class="related-card__title">{r.data.title}</div>
+              <img src={r.data.image} alt="" class="related-card__image" loading="lazy" />
+              <div class="related-card__body">
+                <div class="related-card__category">{r.data.category}</div>
+                <div class="related-card__title">{r.data.title}</div>
+                <div class="related-card__date">
+                  {r.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                </div>
+              </div>
             </a>
           ))}
         </div>
