@@ -11,7 +11,7 @@ const rest = sorted.slice(1);
 <Layout title="Pong News — Table Tennis. Science-Backed Health.">
 
   <!-- Hero -->
-  <section class="hero">
+  <section class="hero" style="background-image: url('/images/hero.jpg');">
     <div class="hero__inner">
       <h1 class="hero__title">
         The Health Benefits of<br/>
@@ -33,6 +33,7 @@ const rest = sorted.slice(1);
   {featured && (
     <section class="featured-section animate-fade-in">
       <a href={`/article/${featured.id}`} class="featured-card">
+        <img src={featured.data.image} alt="" class="featured-card__image" loading="eager" />
         <div class="featured-card__meta">
           <span class="tag">{featured.data.category}</span>
           <span class="featured-card__read-time">5 min read</span>
@@ -77,6 +78,7 @@ const rest = sorted.slice(1);
     <div class="articles-grid">
       {rest.map((article) => (
         <a href={`/article/${article.id}`} class="card">
+          <img src={article.data.image} alt="" class="card__image" loading="lazy" />
           <div class="card__meta">
             <span class="tag">{article.data.category}</span>
           </div>

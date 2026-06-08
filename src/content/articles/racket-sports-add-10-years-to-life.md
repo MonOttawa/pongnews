@@ -8,7 +8,7 @@ summary: "A landmark 25-year study following 8,577 people found tennis players l
 sources:
   - "Schnohr P, et al. Mayo Clinic Proceedings. 2018;93(12):1775-1785."
   - "Oja P, et al. British Journal of Sports Medicine. 2017;51(10):812-817."
-image: "/images/longevity-racket-sports.svg"
+image: "/images/racket-sports.jpg"
 ---
 
 # Racket Sports Could Add 10 Years to Your Life

@@ -10,7 +10,7 @@ sources:
   - "Birinci YZ, et al. Sport Sciences for Health. 2024;20:347-357."
   - "Zheng C, et al. Brain Research. 2024."
   - "MDPI Sports and Active Living. 2022;2(3):107."
-image: "/images/brain-alzheimers.svg"
+image: "/images/brain-health.jpg"
 ---
 
 # Table Tennis vs. Alzheimer's: The Brain Sport Science

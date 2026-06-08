@@ -10,7 +10,7 @@ sources:
   - "ClinicalTrials.gov NCT06444685. 2024."
   - "Revista Andaluza de Medicina del Deporte. 2024."
   - "ScienceDirect. 2020. DOI: 10.1016/j.rehabx.2020.100054."
-image: "/images/parkinsons-therapy.svg"
+image: "/images/rehabilitation.jpg"
 ---
 
 # Table Tennis as Parkinson's Therapy: The Emerging Evidence

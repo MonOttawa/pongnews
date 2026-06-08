@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <!-- Curved trajectory paths representing ball arcs -->
+    <path id="arc1" d="M 0,80 Q 30,20 60,60 T 120,40" />
+    <path id="arc2" d="M 0,40 Q 40,90 80,30 T 120,80" />
+    <path id="arc3" d="M 20,0 Q 60,50 40,100" />
+    <!-- Net line -->
+    <line id="net" x1="60" y1="0" x2="60" y2="120" />
+  </defs>
+
+  <!-- Subtle table tennis net lines -->
+  <use href="#net" stroke="#c96442" stroke-width="0.5" opacity="0.06" stroke-dasharray="2 4"/>
+
+  <!-- Trajectory arcs -->
+  <use href="#arc1" stroke="#c96442" stroke-width="0.6" opacity="0.07" fill="none"/>
+  <use href="#arc2" stroke="#c96442" stroke-width="0.6" opacity="0.05" fill="none"/>
+  <use href="#arc3" stroke="#c96442" stroke-width="0.5" opacity="0.04" fill="none"/>
+
+  <!-- Tiny ball dots along trajectories -->
+  <circle cx="15" cy="55" r="1" fill="#c96442" opacity="0.08"/>
+  <circle cx="45" cy="40" r="1.2" fill="#c96442" opacity="0.06"/>
+  <circle cx="90" cy="50" r="1" fill="#c96442" opacity="0.07"/>
+  <circle cx="30" cy="65" r="0.8" fill="#c96442" opacity="0.05"/>
+  <circle cx="75" cy="35" r="1.1" fill="#c96442" opacity="0.06"/>
+  <circle cx="105" cy="70" r="0.9" fill="#c96442" opacity="0.05"/>
+  <circle cx="55" cy="80" r="1" fill="#c96442" opacity="0.04"/>
+  <circle cx="10" cy="90" r="0.8" fill="#c96442" opacity="0.05"/>
+
+  <!-- Faint table edge lines -->
+  <line x1="0" y1="100" x2="120" y2="100" stroke="#c96442" stroke-width="0.4" opacity="0.04"/>
+  <line x1="0" y1="20" x2="120" y2="20" stroke="#c96442" stroke-width="0.4" opacity="0.03"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b35" />
+      <stop offset="100%" stop-color="#ff4500" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Paddle Face (Circle) -->
+  <circle cx="50" cy="40" r="18" fill="url(#grad)" filter="url(#glow)" />
+  <!-- Paddle Handle (Rounded Rect) -->
+  <rect x="42" y="55" width="16" height="30" rx="4" fill="#fff" opacity="0.9" />
+  <!-- Ping Pong Ball (Small Circle) -->
+  <circle cx="75" cy="25" r="4" fill="#fff" opacity="0.9">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-5 5" dur="1s" repeatCount="indefinite" />
+  </circle>
+  <!-- Motion Trail -->
+  <path d="M75 25 Q 85 20 95 15" stroke="#ff6b35" stroke-width="1.5" fill="none" opacity="0.7" />
+</svg>

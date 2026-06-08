@@ -9,7 +9,7 @@ sources:
   - "Schnohr P, et al. Mayo Clinic Proceedings. 2018;93(12):1775-1785."
   - "Oja P, et al. British Journal of Sports Medicine. 2017;51(10):812-817."
   - "To-aj O, et al. F1000Research. 2025;14:89."
-image: "/images/beats-gym.svg"
+image: "/images/gym-comparison.jpg"
 ---
 
 # Why Table Tennis Beats the Gym for Longevity

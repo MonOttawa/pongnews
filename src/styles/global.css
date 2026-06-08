@@ -321,7 +321,7 @@ a {
 }
 
 .hero__title em {
-  color: var(--accent-soft);
+  color: var(--accent);
   font-style: italic;
 }
 
@@ -329,7 +329,7 @@ a {
   margin-top: 1.2rem;
   font-size: 1.1rem;
   line-height: 1.7;
-  color: rgba(242, 237, 228, 0.75);
+  color: var(--text-muted);
   max-width: 34rem;
   margin-left: auto;
   margin-right: auto;
@@ -1492,4 +1492,63 @@ a {
 
 .animate-fade-in-delay-3 {
   animation: fadeInUp 0.6s ease-out 0.3s both;
+}
+
+/* ── Images ── */
+
+/* Hero with background image */
+.hero {
+  background-size: cover;
+  background-position: center 30%;
+  position: relative;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(250,249,247,0.75) 0%, rgba(250,249,247,0.6) 50%, rgba(250,249,247,0.88) 100%);
+  z-index: 0;
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 1;
+}
+
+/* Featured card image */
+.featured-card__image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  margin: calc(-1 * var(--space-xl)) calc(-1 * var(--space-xl)) var(--space-lg) calc(-1 * var(--space-xl));
+  max-width: calc(100% + 2 * var(--space-xl));
+}
+
+/* Article card image */
+.card__image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: var(--radius) var(--radius) 0 0;
+  margin: calc(-1 * var(--space-xl)) calc(-1 * var(--space-xl)) var(--space-md) calc(-1 * var(--space-xl));
+  max-width: calc(100% + 2 * var(--space-xl));
+}
+
+/* Article page hero image */
+.article-hero-image {
+  margin-bottom: var(--space-xl);
+}
+
+.article-hero-image img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+}
+
+/* Featured card needs to adjust padding when it has an image */
+.featured-card {
+  overflow: hidden;
 }

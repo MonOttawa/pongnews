@@ -10,7 +10,7 @@ sources:
   - "Naderi A, et al. Sport Sciences for Health. 2018;14:265-274."
   - "Science et Sports. 2020. DOI: 10.1016/j.scispo.2020.09.006."
   - "Hornikova H, et al. Acta Gymnica. 2018;48(1):15-20."
-image: "/images/aging-body.svg"
+image: "/images/aging-fitness.jpg"
 ---
 
 # 12 Weeks of Table Tennis: What Happens to an Aging Body
