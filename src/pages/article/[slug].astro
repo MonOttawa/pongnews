@@ -78,9 +78,15 @@ const related = allArticles
       <div class="article-sources">
         <h4 class="article-sources__heading">Peer-Reviewed Sources</h4>
         <ul class="article-sources__list">
-          {article.data.sources.map((source: string) => (
-            <li class="article-sources__item">{source}</li>
-          ))}
+          {article.data.sources.map((source: any) => {
+            const text = typeof source === 'string' ? source : source.text;
+            const url = typeof source === 'string' ? null : source.url;
+            return url ? (
+              <li class="article-sources__item"><a href={url} target="_blank" rel="noopener noreferrer" class="article-sources__link">{text} &#8599;</a></li>
+            ) : (
+              <li class="article-sources__item">{text}</li>
+            );
+          })}
         </ul>
       </div>
     )}

@@ -4,11 +4,14 @@ slug: "why-table-tennis-beats-gym-longevity"
 date: "2026-06-07"
 category: "Longevity"
 tags: ["longevity", "comparison", "gym", "jogging", "social isolation", "adherence"]
-summary: "The Copenhagen study found gym workouts add only 1.5 years of life expectancy compared to tennis's 9.7 years. The gap comes down to three factors that solitary exercise cannot replicate."
+summary: "The Copenhagen study found gym workouts add only 1.5 years of life expectancy compared to racket sports' 9.7 years. The gap comes down to three factors that solitary exercise cannot replicate."
 sources:
-  - "Schnohr P, et al. Mayo Clinic Proceedings. 2018;93(12):1775-1785."
-  - "Oja P, et al. British Journal of Sports Medicine. 2017;51(10):812-817."
-  - "To-aj O, et al. F1000Research. 2025;14:89."
+  - text: "Schnohr P, et al. Mayo Clinic Proceedings. 2018;93(12):1775-1785."
+    url: "https://www.mayoclinicproceedings.org/article/S0025-6196(18)30538-X/abstract"
+  - text: "Oja P, et al. British Journal of Sports Medicine. 2017;51(10):812-817."
+    url: "https://bjsm.bmj.com/content/51/10/812"
+  - text: "To-aj O, et al. F1000Research. 2025;14:89. PMID: 40584892."
+    url: "https://pubmed.ncbi.nlm.nih.gov/40584892/"
 image: "/images/gym-comparison.jpg"
 ---
 

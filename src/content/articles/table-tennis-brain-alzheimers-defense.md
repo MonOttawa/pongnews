@@ -6,10 +6,14 @@ category: "Cognitive Health"
 tags: ["Alzheimer's", "dementia", "BDNF", "neuroplasticity", "cognitive decline", "brain health"]
 summary: "A 2025 meta-analysis found table tennis produces very large effect sizes for cognitive improvement in neurodegenerative disease patients. The mechanism involves BDNF release, increased cerebral blood flow, and white matter structural changes."
 sources:
-  - "Losinska-Maszczyk K, et al. Acta Psychologica. 2025."
-  - "Birinci YZ, et al. Sport Sciences for Health. 2024;20:347-357."
-  - "Zheng C, et al. Brain Research. 2024."
-  - "MDPI Sports and Active Living. 2022;2(3):107."
+  - text: "Losinska-Maszczyk K, et al. Acta Psychologica. 2025."
+    url: "https://pubmed.ncbi.nlm.nih.gov/41197370/"
+  - text: "Birinci YZ, et al. Sport Sciences for Health. 2024;20:347-357. DOI: 10.1007/s11332-023-01152-x."
+    url: "https://doi.org/10.1007/s11332-023-01152-x"
+  - text: "Zheng C, et al. Brain Research. 2024. PMID: 38552934."
+    url: "https://pubmed.ncbi.nlm.nih.gov/38552934/"
+  - text: "Benefits of Table Tennis for Brain Health Maintenance and Prevention of Dementia. Encyclopedia (MDPI). 2022;2(3):107."
+    url: "https://doi.org/10.3390/encyclopedia2030107"
 image: "/images/brain-health.jpg"
 ---
 
@@ -74,4 +78,4 @@ Table tennis is not just a game. It is a structured neuroprotective intervention
 - Losinska-Maszczyk K, et al. "Can table tennis protect the aging brain?" *Acta Psychologica*. 2025.
 - Birinci YZ, et al. "Acute effects of different types of exercises on peripheral neurotrophic factors." *Sport Sciences for Health*. 2024;20:347-357.
 - Zheng C, et al. "Long-term table tennis training alters dynamic functional connectivity." *Brain Research*. 2024.
-- "Benefits of Table Tennis for Brain Health Maintenance." *Sports and Active Living (MDPI)*. 2022;2(3):107.
+- "Benefits of Table Tennis for Brain Health Maintenance and Prevention of Dementia." *Encyclopedia (MDPI)*. 2022;2(3):107.

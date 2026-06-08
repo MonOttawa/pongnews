@@ -1552,3 +1552,15 @@ a {
 .featured-card {
   overflow: hidden;
 }
+
+/* Source links */
+.article-sources__link {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.article-sources__link:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}

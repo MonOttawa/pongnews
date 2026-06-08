@@ -6,10 +6,16 @@ category: "Rehabilitation"
 tags: ["Parkinson's", "rehabilitation", "motor control", "neurological", "therapy"]
 summary: "From clinical trials to brain stimulation studies, researchers are finding that table tennis improves motor control, gait, and cognitive function in Parkinson's disease patients with very large effect sizes."
 sources:
-  - "Losinska-Maszczyk K, et al. Acta Psychologica. 2025."
-  - "ClinicalTrials.gov NCT06444685. 2024."
-  - "Revista Andaluza de Medicina del Deporte. 2024."
-  - "ScienceDirect. 2020. DOI: 10.1016/j.rehabx.2020.100054."
+  - text: "Losinska-Maszczyk K, et al. Acta Psychologica. 2025."
+    url: "https://pubmed.ncbi.nlm.nih.gov/41197370/"
+  - text: "ClinicalTrials.gov NCT06444685. 2024."
+    url: "https://clinicaltrials.gov/study/NCT06444685"
+  - text: "Carta A, et al. A Pilot Study of the Feasibility and Effects of Table Tennis Training in Parkinson Disease. Archives of Rehabilitation Research and Clinical Translation. 2020;4(4):100064."
+    url: "https://doi.org/10.1016/j.arrct.2020.100064"
+  - text: "Table tennis exercise for patients with Parkinson disease. Neurology. 2020;94(15 Suppl):485."
+    url: "https://doi.org/10.1212/wnl.94.15_supplement.485"
+  - text: "ScienceDirect. 2020. DOI: 10.1016/j.rehabx.2020.100054."
+    url: "https://doi.org/10.1016/j.rehabx.2020.100054"
 image: "/images/rehabilitation.jpg"
 ---
 
@@ -40,12 +46,9 @@ Parkinson's affects multiple systems that table tennis specifically challenges:
 
 ## The Motor Control Connection
 
-A 2024 study published in Revista Andaluza de Medicina del Deporte used transcranial magnetic stimulation (TMS) to examine how table tennis experience affects brain-muscle connectivity in older adults. They found:
+A 2020 pilot study published in Archives of Rehabilitation Research and Clinical Translation was among the first to systematically investigate table tennis training in Parkinson's disease patients. The study compared table tennis exercises with LSVT BIG (an established PD rehabilitation program) and conventional rehabilitation using a prospective, multi-center, randomized design.
 
-- TT experience enhanced **DLPFC-M1 connectivity** (dorsolateral prefrontal cortex to primary motor cortex)
-- TT experience enhanced **pre-SMA-M1 connectivity** (pre-supplementary motor area to primary motor cortex)
-
-These are precisely the neural pathways disrupted in Parkinson's disease. The DLPFC is involved in executive function and motor planning. The pre-SMA is involved in movement initiation -- the exact function that fails in PD.
+Separately, a case series presented at the American Academy of Neurology (Neurology, 2020) documented that table tennis exercise improved motor function in PD patients, providing early clinical evidence that the sport's rapid, repetitive movements with visual feedback directly target the neural pathways disrupted in Parkinson's -- including motor planning and movement initiation.
 
 ## Active Clinical Trials
 
@@ -74,5 +77,6 @@ Table tennis is not a cure for Parkinson's. But the evidence suggests it could b
 **Sources:**
 - Losinska-Maszczyk K, et al. "Can table tennis protect the aging brain?" *Acta Psychologica*. 2025.
 - "Effects of Table Tennis for People With Parkinson's Disease." *ClinicalTrials.gov* NCT06444685. 2024.
-- "Table tennis experience enhances motor control in older adults." *Revista Andaluza de Medicina del Deporte*. 2024.
-- "Table tennis for patients with Parkinson's disease: A single-center study." *ScienceDirect*. 2020.
+- Carta A, et al. "A Pilot Study of the Feasibility and Effects of Table Tennis Training in Parkinson Disease." *Archives of Rehabilitation Research and Clinical Translation*. 2020.
+- "Table tennis exercise for patients with Parkinson disease." *Neurology*. 2020;94(15 Suppl):485.
+- "Table tennis for patients with Parkinson's disease." *ScienceDirect*. 2020.

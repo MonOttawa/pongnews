@@ -10,7 +10,13 @@ const articles = defineCollection({
     category: z.string(),
     tags: z.array(z.string()),
     summary: z.string(),
-    sources: z.array(z.string()),
+    sources: z.array(z.union([
+      z.string(),
+      z.object({
+        text: z.string(),
+        url: z.string().nullable().optional(),
+      })
+    ])),
     image: z.string().optional(),
   }),
 });

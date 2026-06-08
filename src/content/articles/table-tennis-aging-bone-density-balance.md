@@ -6,10 +6,14 @@ category: "Physical Health"
 tags: ["aging", "bone density", "balance", "fall prevention", "antioxidants", "older adults"]
 summary: "A 2025 randomized controlled trial published in Scientific Reports found that just 12 weeks of table tennis significantly improved balance, reaction time, grip strength, and antioxidant defenses in adults aged 55-65."
 sources:
-  - "Scientific Reports (Nature). 2025. DOI: 10.1038/s41598-025-31098-8."
-  - "Naderi A, et al. Sport Sciences for Health. 2018;14:265-274."
-  - "Science et Sports. 2020. DOI: 10.1016/j.scispo.2020.09.006."
-  - "Hornikova H, et al. Acta Gymnica. 2018;48(1):15-20."
+  - text: "Scientific Reports (Nature). 2025. DOI: 10.1038/s41598-025-31098-8."
+    url: "https://www.nature.com/articles/s41598-025-31098-8"
+  - text: "Naderi A, et al. Sport Sciences for Health. 2018;14:265-274."
+    url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6016501/"
+  - text: "Science et Sports. 2020. DOI: 10.1016/j.scispo.2020.09.006."
+    url: "https://doi.org/10.1016/j.scispo.2020.09.006"
+  - text: "Hornikova H, et al. Acta Gymnica. 2018;48(1):15-20. DOI: 10.5507/ag.2018.004."
+    url: "http://gymnica.upol.cz/doi/10.5507/ag.2018.004.html"
 image: "/images/aging-fitness.jpg"
 ---
 
