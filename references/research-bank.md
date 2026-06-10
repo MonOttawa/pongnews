@@ -48,12 +48,18 @@ Studies already used in published articles. Check this before writing new conten
 | Losinska-Maszczyk (meta-analysis) | TT cognitive d=1.44, PD motor d=1.27 | 2025 |
 | Birinci (BDNF study) | TT significantly greater BDNF than chess/sedentary | 2024 |
 | To-aj (QoL RCT) | TT QoL d=1.69, social d=3.04 | 2025 |
-| Scientific Reports RCT | 12 weeks TT: improved balance, grip, antioxidants | 2025 |
+|| Scientific Reports RCT | 12 weeks TT: improved balance, grip, antioxidants | 2025 |
+|| Li H (meta-analysis, 14 RCTs) | TT balance SMD 0.78, cognition SMD 2.05 (1,565 participants) | 2026 ||
 
 ### Article: why-open-skill-exercise-protects-aging-brain
 - Kumagai S, et al. Brain Sciences. 2025;15(7):682. PMID: 40722275. DOI: 10.3390/brainsci15070682. (OSE vs CSE narrative review, cognitive decline/dementia prevention)
 - Wei JN, et al. International Journal of Clinical and Health Psychology. 2024;24(2):100464. PMID: 38660391. DOI: 10.1016/j.ijchp.2024.100464. (TT motor control, sensorimotor cortical connectivity, F(2,88)=6.380 p=0.003)
 - Dhahbi W, et al. Sports Medicine - Open. 2025;11:56. PMID: 40381170. DOI: 10.1186/s40798-025-00857-2. (Exercise vs cognitive decline narrative review, aerobic/RT/combined)
+
+### Article: table-tennis-meta-analysis-balance-cognition-1565-participants
+- Li H, Ahn H, Shin M. Healthcare (Basel). 2026;14(5):675. PMID: 41827628. DOI: 10.3390/healthcare14050675. (Meta-analysis of 14 RCTs, 1,565 participants, balance SMD 0.78, cognition SMD 2.05)
+- Aparicio-Chueca P, Muñoz-Vila N. Healthcare (Basel). 2025;13(18):2352. PMID: 41008481. DOI: 10.3390/healthcare13182352. (329 players, multidimensional health benefits)
+- Sherrington C, et al. Int J Behav Nutr Phys Act. 2020;17:144. PMID: 33239019. DOI: 10.1186/s12966-020-01041-3. (Exercise and falls prevention, WHO guidelines review)
 
 ## Available but Not Yet Used
 
