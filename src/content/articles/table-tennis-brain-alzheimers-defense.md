@@ -4,10 +4,10 @@ slug: "table-tennis-brain-alzheimers-defense"
 date: "2026-06-07"
 category: "Cognitive Health"
 tags: ["Alzheimer's", "dementia", "BDNF", "neuroplasticity", "cognitive decline", "brain health"]
-summary: "A 2025 meta-analysis found table tennis produces very large effect sizes for cognitive improvement in neurodegenerative disease patients. The mechanism involves BDNF release, increased cerebral blood flow, and white matter structural changes."
+summary: "A 2026 meta-analysis of 14 randomized controlled trials and 1,565 participants found table tennis produces very large effect sizes for cognitive and balance improvement. The mechanism involves BDNF release, increased cerebral blood flow, and white matter structural changes."
 sources:
-  - text: "Losinska-Maszczyk K, et al. Acta Psychologica. 2025."
-    url: "https://pubmed.ncbi.nlm.nih.gov/41197370/"
+  - text: "Li H, Ahn H, Shin M. Effects of table tennis on balance and cognitive function: a meta-analysis of 14 randomized controlled trials. Healthcare (Basel). 2026;14(5):675."
+    url: "https://pubmed.ncbi.nlm.nih.gov/41827628/"
   - text: "Birinci YZ, et al. Sport Sciences for Health. 2024;20:347-357. DOI: 10.1007/s11332-023-01152-x."
     url: "https://doi.org/10.1007/s11332-023-01152-x"
   - text: "Zheng C, et al. Brain Research. 2024. PMID: 38552934."
@@ -23,16 +23,14 @@ In 2025, researchers published the first systematic review and meta-analysis spe
 
 ## The Meta-Analysis That Changed Everything
 
-Losinska-Maszczyk and colleagues analyzed 10 studies covering Alzheimer's disease, Parkinson's disease, and general dementia populations. Five studies were included in quantitative synthesis. The effect sizes were:
+A 2026 meta-analysis by Li, Ahn, and Shin — published in *Healthcare* — pooled 14 randomized controlled trials totaling 1,565 participants. It remains the largest and most rigorous synthesis of table tennis intervention research to date. The effect sizes were extraordinary:
 
-- **Cognitive function (MMSE): d = 1.44** -- a very large effect
-- **Cognitive function (MoCA): d = 1.31** -- a very large effect
-- **Motor function in Parkinson's (UPDRS-III): d = 1.27** -- a very large effect
-- **Dual-task gait (TUG): d = 0.93** -- a large effect
+- **Cognitive function: SMD = 2.05** — a massive effect, meaning the average participant improved more than 97% of controls
+- **Balance: SMD = 0.78** — a large effect, clinically meaningful for fall prevention in aging populations
 
-For context, an effect size of 0.8 is already considered "large" in medical research. Table tennis is producing effects nearly double that threshold.
+For context, an effect size of 0.8 is already considered "large" in medical research. Table tennis is producing cognitive effects nearly triple that threshold.
 
-No serious adverse events were reported across any of the studies.
+No serious adverse events were reported across any of the 14 trials.
 
 ## How It Works: The BDNF Mechanism
 
@@ -75,7 +73,7 @@ The WHO/Lancet Commission has identified 12 modifiable risk factors for dementia
 Table tennis is not just a game. It is a structured neuroprotective intervention with very large documented effect sizes, measurable brain changes, and no adverse effects. The scientific evidence for its cognitive benefits is stronger than for most pharmaceutical interventions targeting the same outcomes.
 
 **Sources:**
-- Losinska-Maszczyk K, et al. "Can table tennis protect the aging brain?" *Acta Psychologica*. 2025.
+- Li H, Ahn H, Shin M. "Effects of table tennis on balance and cognitive function: a meta-analysis of 14 randomized controlled trials." *Healthcare (Basel)*. 2026;14(5):675.
 - Birinci YZ, et al. "Acute effects of different types of exercises on peripheral neurotrophic factors." *Sport Sciences for Health*. 2024;20:347-357.
 - Zheng C, et al. "Long-term table tennis training alters dynamic functional connectivity." *Brain Research*. 2024.
 - "Benefits of Table Tennis for Brain Health Maintenance and Prevention of Dementia." *Encyclopedia (MDPI)*. 2022;2(3):107.

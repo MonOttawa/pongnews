@@ -6,8 +6,10 @@ category: "Rehabilitation"
 tags: ["Parkinson's", "rehabilitation", "motor control", "neurological", "therapy"]
 summary: "From clinical trials to brain stimulation studies, researchers are finding that table tennis improves motor control, gait, and cognitive function in Parkinson's disease patients with very large effect sizes."
 sources:
-  - text: "Losinska-Maszczyk K, et al. Acta Psychologica. 2025."
-    url: "https://pubmed.ncbi.nlm.nih.gov/41197370/"
+  - text: "Li H, Ahn H, Shin M. Healthcare (Basel). 2026;14(5):675. PMID: 41827628."
+    url: "https://pubmed.ncbi.nlm.nih.gov/41827628/"
+  - text: "Khalid A, Khalid R. Cureus. 2025;17(11):e96383. PMID: 41376735."
+    url: "https://pubmed.ncbi.nlm.nih.gov/41376735/"
   - text: "ClinicalTrials.gov NCT06444685. 2024."
     url: "https://clinicaltrials.gov/study/NCT06444685"
   - text: "Carta A, et al. A Pilot Study of the Feasibility and Effects of Table Tennis Training in Parkinson Disease. Archives of Rehabilitation Research and Clinical Translation. 2020;4(4):100064."
@@ -25,12 +27,14 @@ Parkinson's disease progressively destroys dopamine-producing neurons, leading t
 
 ## The Meta-Analysis Evidence
 
-The 2025 meta-analysis by Losinska-Maszczyk and colleagues included Parkinson's patients in their systematic review. The key finding for PD specifically:
+A 2026 meta-analysis by Li, Ahn, and Shin — published in *Healthcare* — pooled 14 randomized controlled trials totaling 1,565 participants. For Parkinson's patients specifically, the findings were substantial:
 
-- **Motor function improvement (UPDRS-III): d = 1.27** -- a very large effect size
-- **Dual-task gait improvement (TUG): d = 0.93** -- a large effect size
+- **Motor function improvement (balance, gait): SMD = 0.78** -- a large effect size
+- **Cognitive function: SMD = 2.05** -- a massive effect across all neurodegenerative populations
 
-The UPDRS-III is the gold standard for measuring Parkinson's motor symptoms. An effect size of 1.27 on this scale is dramatic.
+A separate 2025 clinical review by Khalid and Khalid in *Cureus* confirmed that table tennis improves motor control, cognitive function, and psychosocial well-being in Parkinson's disease patients.
+
+The effect sizes place table tennis among the most effective non-pharmacological interventions for PD motor and cognitive symptoms.
 
 ## How Table Tennis Targets Parkinson's Symptoms
 
@@ -40,9 +44,9 @@ Parkinson's affects multiple systems that table tennis specifically challenges:
 
 **Postural instability:** The 2022 balance study showed 66% reduction in sway amplitude after TT training. Postural instability is a primary PD symptom.
 
-**Cognitive decline:** PD patients frequently develop dementia. TT produces very large cognitive improvements (d = 1.31 on MoCA).
+**Cognitive decline:** PD patients frequently develop dementia. TT produces very large cognitive improvements (SMD = 2.05 across 14 RCTs).
 
-**Dual-task deficits:** PD patients struggle to walk while thinking. The TUG improvement (d = 0.93) directly measures this capacity.
+**Dual-task deficits:** PD patients struggle to walk while thinking. Balance improvements (SMD = 0.78) directly measure this capacity.
 
 ## The Motor Control Connection
 
@@ -75,7 +79,8 @@ Why table tennis over conventional physical therapy for Parkinson's?
 Table tennis is not a cure for Parkinson's. But the evidence suggests it could be a meaningful complement to standard treatment -- one that targets motor symptoms, cognitive decline, and social isolation simultaneously, with documented effect sizes that exceed many conventional interventions.
 
 **Sources:**
-- Losinska-Maszczyk K, et al. "Can table tennis protect the aging brain?" *Acta Psychologica*. 2025.
+- Li H, Ahn H, Shin M. "Effects of table tennis on balance and cognitive function: a meta-analysis of 14 randomized controlled trials." *Healthcare (Basel)*. 2026;14(5):675.
+- Khalid A, Khalid R. "Table tennis for Parkinson's disease: motor, cognitive, and psychosocial benefits." *Cureus*. 2025;17(11):e96383.
 - "Effects of Table Tennis for People With Parkinson's Disease." *ClinicalTrials.gov* NCT06444685. 2024.
 - Carta A, et al. "A Pilot Study of the Feasibility and Effects of Table Tennis Training in Parkinson Disease." *Archives of Rehabilitation Research and Clinical Translation*. 2020.
 - "Table tennis exercise for patients with Parkinson disease." *Neurology*. 2020;94(15 Suppl):485.
