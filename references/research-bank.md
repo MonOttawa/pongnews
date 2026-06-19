@@ -134,9 +134,21 @@ Studies already used in published articles. Check this before writing new conten
 | Jin X (meta-analysis) | 9 RCTs, 531 participants: TT improved vision SMD=0.91, optimal dose ~21h | 2026 |
 | Yu Z (cohort study) | 239 adolescents: TT myopic shift -0.19D vs -0.42D (P=.002), <50% progression | 2026 |
 
+### Article: table-tennis-boosts-teen-social-adaptation-41-percent
+- Tang J, Chen X, Wang H. Frontiers in Psychology. 2026;17:1756123. PMID: 41704413. DOI: 10.3389/fpsyg.2026.1756123. (116 high school students, 20 lessons, SEM vs traditional TT: social adaptation 29.15 vs 20.62, d≈1.22, p<0.001; intrinsic motivation large gains)
+- Yu D, Shimura M, Kawanishi M. Scientific Reports. 2025;15(1):24016. PMID: 40617984. DOI: 10.1038/s41598-025-09793-3. (4-month adolescent PE program, TT group significant SDS depression reduction)
+- He Z, Tong J, Zhang Z, Lu D, Li F. Scientific Reports. 2026;16(1):9179. PMID: 41692797. DOI: 10.1038/s41598-026-35829-3. (137 undergrads, 12wk, matching principle: PA interaction level predicts psychological capital & social support changes, TT = medium interaction)
+
+## Key Statistics Reference (Social / Mental Health)
+
+| Study | Key Finding | Year |
+|---|---|---|
+| Tang J (SEM study) | 116 teens, 20 lessons: SEM table tennis social adaptation +41% vs traditional (d≈1.22, p<0.001); intrinsic motivation large gains | 2026 |
+| Yu D (depression study) | 4-month PE program: table tennis significantly reduced depression (SDS) scores in adolescents | 2025 |
+| He Z (matching principle) | 137 undergrads, 12wk: PA peer-interaction level predicts psychological capital (intrapersonal) & social support (interpersonal) gains | 2026 |
+
 ## Available but Not Yet Used (Additions)
 
-- Quan T, et al. BMC Pediatrics. 2026 Jun 15. PMID: 42289665. DOI: 10.1186/s12887-026-07105-w. (12-week RCT, 30 children with ADHD+dyslexia, TT (OSE) vs track (CSE), TT superior for executive function and visual perception)
 - Chen H. Frontiers in Psychology. 2026. PMID: 42131533. (20 TT athletes vs 19 non-athletes, EEG dual-task, TT athletes more efficient attentional resource allocation under working memory load)
 
 ## IMPORTANT: Retraction Notice
