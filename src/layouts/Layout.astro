@@ -10,7 +10,7 @@ interface Props {
   tags?: string[];
 }
 
-const { title, description = 'The science of table tennis and health. Peer-reviewed research on how ping pong extends life, protects the brain, and transforms aging.', ogImage, article = false, pubDate, tags = [] } = Astro.props;
+const { title, description = 'The science of table tennis and health. Peer-reviewed research on how table tennis extends life, protects the brain, and transforms aging.', ogImage, article = false, pubDate, tags = [] } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const currentYear = new Date().getFullYear();
 ---
