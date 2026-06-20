@@ -186,32 +186,10 @@ a {
   opacity: 0.85;
 }
 
-.site-nav__logo:hover .site-nav__logo-mark svg {
-  transform: rotate(-8deg) scale(1.05);
-}
-
-.site-nav__logo-mark {
-  width: 28px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.site-nav__logo-mark svg {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s var(--ease-quiet);
-}
-
-.site-nav__logo-text {
-  font-family: var(--serif);
-  font-weight: 500;
-  font-style: italic;
-  font-size: 1.2rem;
-  letter-spacing: -0.01em;
-  font-variation-settings: var(--fraunces-title);
+.site-nav__logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 /* Hamburger checkbox hack */
