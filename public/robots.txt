@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pongnews.com/sitemap-index.xml
