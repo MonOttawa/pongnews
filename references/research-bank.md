@@ -96,9 +96,29 @@ Studies already used in published articles. Check this before writing new conten
 
 ## Available but Not Yet Used
 
-- Iyappan P, et al. Journal of Sport Rehabilitation Research. 2026 Jan. (TT training vs Tennikoit play therapy for children with ASD, balance and object control)
-- Khalid A, Khalid R. Cureus. 2025;17(11):e96383. PMID: 41376735. DOI: 10.7759/cureus.96383. (Review: TT for PD motor/cognitive/psychosocial benefits)
-- Fujioka S, et al. Neurol Neurochir Pol. 2026 Jun 9. PMID: 42262277. DOI: 10.5603/pjnns.112270. (Pilot RCT: VR-based TT program for PD rehabilitation)
+### Article: vr-table-tennis-parkinsons-rct
+- Fujioka S, et al. Neurol Neurochir Pol. 2026;60(3):382-385. PMID: 42262277. DOI: 10.5603/pjnns.112270. (Pilot RCT: VR-based TT program for PD rehabilitation, 10 patients, Oculus Quest 2, no serious AEs)
+- Li H, Ahn H, Shin M. Healthcare (Basel). 2026;14(5):675. PMID: 41827628. (Meta-analysis, 14 RCTs, 1,565 participants, motor SMD 0.78, cognition SMD 2.05)
+- Dockx K, et al. Cochrane Database Syst Rev. 2016;12:CD010760. PMID: 28000926. (VR for PD rehabilitation Cochrane review)
+
+### Article: table-tennis-athletes-master-working-memory-under-pressure-eeg-study
+- Chen H. Frontiers in Psychology. 2026;17:1812346. DOI: 10.3389/fpsyg.2026.1812346. (20 TT athletes vs 19 non-athletes, EEG dual-task, TT athletes maintain stable P300 amplitude under working memory load, non-athletes show significant interference reduction 0.78→-0.07 μV)
+
+### Article: table-tennis-unique-physiological-demands-vs-racket-sports-systematic-review
+- Cádiz Gallardo MP, Pradas de la Fuente F, Moreno-Azze A, Carrasco Páez L. Frontiers in Psychology. 2023;14:1149295. DOI: 10.3389/fpsyg.2023.1149295. (Systematic review, 27 studies, TT HR 103.99±15.09 bpm vs badminton 182.6±2.7 bpm, TT LA 1.2±0.4 mmol/L vs badminton 10.11±4.99 mmol/L, TT VO2 36.8±13.2 ml/kg/min vs tennis 26.6±2.7, TT VO2max 42.9±4.2 vs tennis 58.0±4.6)
+
+## Key Statistics Reference (Working Memory/Neural Efficiency)
+
+|| Study | Key Finding | Year ||
+||---|---|---||
+|| Chen H (EEG study) | Non-athletes P300 interference: 0.78 μV (low load) → -0.07 μV (high load); TT athletes: 0.04 μV → -0.09 μV (stable) | 2026 |
+
+## Key Statistics Reference (Physiological Demands vs Racket Sports)
+
+|| Study | Key Finding | Year ||
+||---|---|---||
+|| Cádiz Gallardo (systematic review) | TT HR 103.99±15.09 bpm, badminton HR 182.6±2.7 bpm; TT LA 1.2±0.4 mmol/L, badminton 10.11±4.99 mmol/L | 2023 ||
+|| Cádiz Gallardo (VO2 comparison) | TT mean VO2 36.8±13.2 ml/kg/min, tennis 26.6±2.7 ml/kg/min; TT VO2max 42.9±4.2 ml/kg/min, tennis 58.0±4.6 ml/kg/min | 2023 |
 
 ### Article: table-tennis-dcd-visual-perception-improvements
 - Kim D, et al. Perceptual and Motor Skills. 2024;131(4):1403-1417. PMID: 38682611. DOI: 10.1177/00315125241250080. (8-week TT RCT, 31 adolescents with DCD, improved visual-motor search, visual-motor speed, figure-ground, visual closure)
@@ -147,9 +167,26 @@ Studies already used in published articles. Check this before writing new conten
 | Yu D (depression study) | 4-month PE program: table tennis significantly reduced depression (SDS) scores in adolescents | 2025 |
 | He Z (matching principle) | 137 undergrads, 12wk: PA peer-interaction level predicts psychological capital (intrapersonal) & social support (interpersonal) gains | 2026 |
 
-## Available but Not Yet Used (Additions)
+### Article: table-tennis-keeps-active-60-sustainable-aging-rct
+- Schumacher A, Krumpolt M, Sannemann L, Witte K. Frontiers in Sports and Active Living. 2026;8:1702331. PMID: 41958816. DOI: 10.3389/fspor.2026.1702331. (24-week RCT, 161 adults 60+, 97% continued training post-intervention, 87% joined clubs at 12mo, lower-limb strength χ²(1.84)=5.127 p<.001 ΔR²=.150, PWC130 η²=.25 p=.017)
+- Markov A, Hauser L, Chaabene H. Sports Medicine. 2023;53(2):437-455. PMID: 36222981. DOI: 10.1007/s40279-022-01764-2. (Meta-analysis of concurrent strength and endurance training for middle-aged and older adults)
+- Buendía-Romero Á, Vetrovský T, Hernández-Belmonte A, Izquierdo M, Courel-Ibáñez J. Scandinavian Journal of Medicine and Science in Sports. 2025;35(1):e70010. PMID: 39764712. DOI: 10.1111/sms.70010. (Systematic review and meta-regression of residual effects after training cessation in older adults)
 
-- Chen H. Frontiers in Psychology. 2026. PMID: 42131533. (20 TT athletes vs 19 non-athletes, EEG dual-task, TT athletes more efficient attentional resource allocation under working memory load)
+### Article: professional-racket-sports-comparative-study-2026
+- Subagio I, Pranoto A, Tomoliyus T, et al. Retos. 2026;76:790-797. DOI: 10.47197/retos.v76.118155. (30 elite provincial gold medalists, tennis/badminton/table tennis, sport-specific adaptations)
+- Cádiz Gallardo MP, et al. Frontiers in Psychology. 2023;14:1149295. (Systematic review, shared with earlier article)
+
+### Article: youth-table-tennis-physical-fitness-systematic-review-2026
+- Liu Y, Abdullah BB, Abu Saad HB, Li K, Fan C. Frontiers in Physiology. 2026;17:1782585. DOI: 10.3389/fphys.2026.1782585. (Systematic review, 10 RCTs, 102 records identified, 10 studies included, PEDro scale 4-6, strength training n=9, speed training n=7, agility n=5, flexibility n=5, endurance n=4)
+- Cádiz Gallardo MP, et al. Frontiers in Psychology. 2023;14:1149295. (Table Tennis for Health: A Multidimensional Perspective, systematic review shared context)
+
+## Key Statistics Reference (Additions)
+
+| Study | Key Finding | Year |
+|---|---|---|
+| Liu Y (systematic review) | 10 RCTs of youth TT players (aged 15-24): strength training in 9 studies, speed in 7, agility 5, flexibility 5, endurance 4 | 2026 |
+
+## Available but Not Yet Used (Additions)
 
 ## IMPORTANT: Retraction Notice
 
