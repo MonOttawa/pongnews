@@ -1,0 +1,33 @@
+---
+// AdSlot: display-ad placeholder for article pages.
+// INERT until a publisher ID is configured:
+//   1. Add `PUBLIC_ADSENSE_CLIENT=ca-pub-XXXXXXXXXXXXXXXX` to ~/Projects/pongnews/.env
+//   2. Add a data-ad-slot ID below in AD_SLOT_IDS
+//   3. Rebuild + redeploy
+// With no client ID the component renders nothing visible (empty string),
+// so pages stay byte-identical to today until monetization is switched on.
+const CLIENT = import.meta.env.PUBLIC_ADSENSE_CLIENT ?? '';
+const AD_SLOT_IDS: Record<string, string> = {
+  // name -> AdSense ad unit ID (fill when units are created)
+  article_bottom: '',
+  article_mid: '',
+};
+const { slot = 'article_bottom' } = Astro.props as { slot?: string };
+const unitId = AD_SLOT_IDS[slot] ?? '';
+const enabled = Boolean(CLIENT && unitId);
+---
+
+{enabled && (
+  <aside class="ad-slot" aria-label="Advertisement">
+    <ins
+      class="adsbygoogle"
+      style="display:block"
+      data-ad-client={CLIENT}
+      data-ad-slot={unitId}
+      data-ad-format="auto"
+      data-full-width-responsive="true"
+    />
+    <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${CLIENT}`} crossorigin="anonymous" />
+    <script is:inline>(((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({}));</script>
+  </aside>
+)}

@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import AdSlot from '../../components/AdSlot.astro';
 import { getCollection, render } from 'astro:content';
 import { marked } from 'marked';
 
@@ -72,6 +73,9 @@ const related = allArticles
     <div class="prose">
       <Content />
     </div>
+
+    <!-- Ad slot (inert until AdSense is configured) -->
+    <AdSlot slot="article_bottom" />
 
     <!-- Sources -->
     {article.data.sources.length > 0 && (
