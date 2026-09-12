@@ -1,7 +1,7 @@
 ---
 title: "able Tennis Visual Attention Matches Video Games in Landmark UFOV Study"
 date: 2026-07-12
-category: "ognitive Health"
+category: "Cognitive Health"
 tags: [attention, cognitive performance, athletes, brain health, neuroscience]
 summary: " 2026 UFOV study found table tennis players match action video game players on selective attention under visual interference, while both groups significantly outperform aerobic gymnastics athletes and non-trained students."
 image: /images/table-tennis-ufov-vision.jpg
