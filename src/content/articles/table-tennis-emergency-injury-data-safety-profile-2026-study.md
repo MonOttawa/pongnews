@@ -1,7 +1,7 @@
 ---
 title: "Table Tennis Safest Racket Sport: 4.2% of Emergency Department Visits"
 date: 2026-07-23
-category: "hysical Health"
+category: "Physical Health"
 tags:
   - safety
   - injury prevention
