@@ -159,6 +159,11 @@ Studies already used in published articles. Check this before writing new conten
 - Yu D, Shimura M, Kawanishi M. Scientific Reports. 2025;15(1):24016. PMID: 40617984. DOI: 10.1038/s41598-025-09793-3. (4-month adolescent PE program, TT group significant SDS depression reduction)
 - He Z, Tong J, Zhang Z, Lu D, Li F. Scientific Reports. 2026;16(1):9179. PMID: 41692797. DOI: 10.1038/s41598-026-35829-3. (137 undergrads, 12wk, matching principle: PA interaction level predicts psychological capital & social support changes, TT = medium interaction)
 
+### Article: table-tennis-skill-anxiety-buffer-self-esteem-students (2026-09-18, DRAFT)
+- Wang L, Zhang T, Huang W, Gou L, Zhong M, Liu Q, Liu Y. SAGE Open Medicine. 2024;12:20503121241258736. PMID: 38895545. DOI: 10.1177/20503121241258736. (163 university students, 8-month longitudinal, TT skill x self-esteem interaction F(1,149)=7.30 p=0.008; simple slope p=0.016 when self-esteem declined; R2=0.54. VERIFIED against full text PMC11185022, statistics match.)
+- Yu D, Shimura M, Kawanishi M. Scientific Reports. 2025;15:24016. PMID: 40617984. DOI: 10.1038/s41598-025-09793-3. (4-month adolescent PE program, TT group significant SDS depression reduction; secondary source here)
+- Aparicio-Chueca P, Muñoz-Vila N. Healthcare (Basel). 2025;13(18):2352. PMID: 41008481. (329 players, multidimensional health benefits; secondary source here)
+
 ### Article: table-tennis-intervention-reduces-short-video-addiction-68-percent-mediated-effect
 - Wang K, Sun J, Han J, Wu Z. Frontiers in Psychology. 2025;16:1666895. PMID: 41479988. DOI: 10.3389/fpsyg.2026.1666895. (60 college students, 16-wk TT intervention 3x/wk, cognitive bias + self-control chain mediation accounted for 68.33% of total effect on reducing short video addiction)
 - Aparicio-Chueca P, Muñoz-Vila N. Healthcare (Basel). 2025;13(18):2352. PMID: 41008481. DOI: 10.3390/healthcare13182352. (329 players, multidimensional health benefits)
