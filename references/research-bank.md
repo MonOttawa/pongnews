@@ -322,3 +322,9 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 ### Sep-17-26 sweep note (cron run)
 - Recency sweep (30 most recent TT/ping-pong/racket PMIDs) + date-window sweep (pdat 2026/09/15-2026/09/20): zero new health-relevant studies. New PMIDs: 42744861 (cell biology keyword match), 42493123 (materials, previously dispositioned); all others already covered or dispositioned.
 - Conclusion: no genuinely new health-relevant table tennis study for Sep-17. Per skill rule, no article, no poll, silent day. Pending human review drafts unchanged: table-tennis-pro-hip-pain-fai-study (Sep-16 slot) and table-tennis-blood-flow-restriction-light-load-training-rct.
+
+### Sep-19-26 sweep note (cron run)
+- Full 2026 recency sweep (30 most recent TT/ping-pong PMIDs) + date-window sweep (pdat 2026/09/10-2026/09/20) + health-terms sweep (TT/ping-pong TiAb x health/cognition/depression/dementia/rehab/elderly, 2025-2026): zero new health-relevant studies.
+- New PMIDs examined and dispositioned: 42760992 (Front Physiol, particle-swarm optimization of serve kinematics — engineering/performance modeling, not health); 42713574 (J Sports Sci Med U15 match analysis — performance/tactics, dispositioned Sep-10); 42691015 (PLoS One editorial note on mixed-doubles retraction, not a study); 42454977 (NeuroPong PD pilot — PubMed pubdate now shows Sep 2026, ALREADY covered by neuropong-table-tennis-parkinsons-rct.md).
+- All other hits previously covered or dispositioned (irrelevant keyword matches: piRNA/biochemistry, cardiology ping-pong technique case reports, materials science, tennis/wheelchair-tennis engineering).
+- Conclusion: no genuinely new health-relevant table tennis study for Sep-19. Per skill rule, no article, no poll, silent day.
