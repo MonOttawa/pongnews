@@ -346,3 +346,11 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 - Racket-sports x health/cognition/mortality/older sweep (pdat 2026/09/01-2026/09/22): no results.
 - Primary candidate investigated and rejected as duplicate: 42289665 (Quan BMC Pediatr ADHD+dyslexia TT RCT) — full text pulled and stats verified, then found to be covered by table-tennis-beats-track-executive-function-adhd-dyslexia-rct.md (per Sep-21 tracking correction). Dedupe by grep of src/content/articles/ frontmatter confirmed BEFORE writing any article this time.
 - Conclusion: no genuinely new health-relevant table tennis study for Sep-22. Per skill rule, no article, no poll, silent day.
+
+### Sep-23-26 sweep note (cron run) — ARTICLE WRITTEN (draft, pending review)
+- 2026 recency sweep (40 TT/ping-pong PMIDs): most hits previously covered/dispositioned. New health-relevant candidate found: **PMID 42491224** (Deng SJ et al., Front Nutr 2026;13:1858347 — dietary intake + nutrition knowledge vs body composition/performance in 42 trained TT athletes). Not covered anywhere (verified vs bank AND vs src/content/articles frontmatter per Sep-21 lesson).
+- Full text pulled (Frontiers, open access) and stats verified against source tables: folate 21% RDI, iron 24-54%, fiber 21-32% (8.0 vs 25-38 g/d), vit C 27-32%, calcium 33-41%, F/V 28% of 5 servings/d; energy 1837.6±507.2 kcal/d; knowledge score 50.0% (average); no knowledge-group differences in performance/body comp; PCA first 2 components 64.8% variance. MODE 1 (strong reader-facing numbers, actionable).
+- Supporting sources verified: PMID 42625223 (Mohamed et al., BMC Sports Sci Med Rehabil 2026 — collegiate athletes, knowledge p=0.57, protein+level predict body comp, not knowledge) and PMID 30307296 (Argôlo, Nutr Hosp 2018 — TT-specific 8-year-old warning).
+- Image: Pexels 38446271 (JOOLA hall, players at tables), vision-verified YES via glm-5.3-flash (OpenRouter 402 no credits — fallback per memory). md5 unique vs all existing images.
+- Draft: table-tennis-nutrition-micronutrient-gaps-study.md (Physical Health, Wednesday slot). Build verified (74 pages, article page + image in dist). NOTE: nutrition-review article from earlier 2026 covers Wang 2026 fnut.1849900 (carb/fueling guidelines) — different paper, no overlap.
+- Dedupe keys: PMID 42491224, 42625223, 30307296.
