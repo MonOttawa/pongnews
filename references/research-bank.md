@@ -372,3 +372,10 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 - Image: Pexels 12377235 (outdoor table tennis table), vision-verified YES via glm-4.5v at api.z.ai coding endpoint (OpenRouter 402 no credits; bigmodel.cn paas 429; qwen3vl container on R10 :8789 CRASHED since Sep-20 — needs manual restart). md5 b977d418e2c9da3e52ca187b108195c3 unique vs all existing images.
 - Draft: table-tennis-adhd-cognitive-flexibility-systematic-review.md (Cognitive Health, Sunday deep-dive slot). avoid-ai-writing detector score 0 (Clean). Astro build passes (76 pages; article + image verified in dist).
 - Dedupe keys: PMID 42784385, 35507726, 25646023 (all new coverage).
+
+### Sep-28-26 sweep note (cron run, Monday Longevity slot) — MODE 2 poll news
+- PubMed sweeps via approved script: longevity/mortality query (15 hits) returned only "ping-pong" metaphor papers (cardiology devices, piRNA biology, CAR-T) — zero real longevity/TT studies; full 2026 recency sweep (40 hits) found all health-relevant items already covered (incl. Barbera NeuroPong PMID 42454977 = neuropong-table-tennis-parkinsons-rct.md Jul-17; nutrition mini-review 42434404 = fuel-guide article; Guarnieri 42783628 dispositioned Sep-27 as performance-profile).
+- Only new health-relevant study: **PMID 42418479** (Çelik N, Bolat C, Dönmez A. Table tennis and cognitive skills: A study on attention and decision making in sports science students. PLoS One. 2026;21(7):e0353175. DOI 10.1371/journal.pone.0353175). Quasi-experimental, 28 university students (14 elective TT course vs 14 no TT), D2 Attention Test + Melbourne Decision Making Scale, 2x2 repeated-measures ANOVA. Time effect significant (concentration F=16.328 p<.001; careful decision-making F=4.759 p=.038) but group x time interaction NOT significant (p=.182 / p=.058) — cannot attribute gains to TT specifically. Null-ish, small n → MODE 2, not article-worthy.
+- Citation verified via CrossRef (exact title/authors/DOI/journal match vs PubMed PMID 42418479).
+- Covered as MODE 2 poll news 2026-09-28 (PongNews TG topic delivery). No article file, no site publish, no draft needed.
+- Dedupe key: PMID 42418479.
