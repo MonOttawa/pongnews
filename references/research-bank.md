@@ -417,3 +417,16 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 - **Secondary**: Zhang M 2026 reactive agility RCT (PMID 42798353, previously banked) and Li H 2026 TT motor/cognition meta-analysis (PMID 41827628, previously banked).
 - **Image**: Women's World Cup Table Tennis by cm.yong (Flickr, CC BY 2.0) — vision-verified TABLE TENNIS via Gemini, unique md5 vs existing images, attribution included in article footer.
 - **Mode 1** full article.
+
+### Oct-8-26 sweep note (cron run, Thursday Rehab slot)
+- PubMed sweeps via approved script: (1) full 2025-2026 TT/ping-pong 40 hits, (2) rehab/injury/PD/stroke targeted 25 hits, (3) Oct 1-8 crdt recency window (1 hit, irrelevant biochemistry), (4) older-adults/cognitive/falls angle 20 hits. One esummary transient JSON error retried successfully.
+- Dispositions: 42798353/42428943/42583567/42600076/42214165/42454977/42262277/42333368/41331519/42491224/42529065/42245594 all already covered or previously dispositioned. 42577727 (Cureus press-tack acupuncture toe tendon rupture case report) — not TT-specific, not health-benefit content, skip. 42372568 (US ED racket/paddle injuries 2000-2023, Am J Emerg Med Nov 2026): new PMID but **racket/paddle sports generally, not table tennis-specific** — no TT-specific numbers, wrong fit for TT-only coverage, not banked.
+- Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
+- Dedupe keys: no new PMIDs.
+
+### Oct-9-26 sweep note (cron run, Friday Mental Health slot)
+- PubMed sweeps via approved script: (1) TT/ping-pong + mental-health terms 2024:2026 (15 hits), (2) same with broader MH term list (20 hits), (3) pdat 2026/09/15+ recency (12 hits), (4) crdt 2026/10/01+ creation window (3 hits). One esummary-relevant noise pattern only.
+- All health-relevant PMIDs already covered or dispositioned (per Sep-9 through Oct-8 notes): 42454977 (NeuroPong covered), 42299533 (vision article), 42245594 (judged too small Sep-13), 41775761 (fatigue ML, performance not health), 41958816 (banked), 42020866 (robot, not health), 42372568 (racket/paddle ED injuries, not TT-specific, dispositioned Oct-8).
+- New since Oct-8: 42849573 (tafazzin lipid enzymology — "ping-pong mechanism" keyword noise), 42846457 (sleep hygiene in Sichuan provincial athletes — general athlete sample, no table tennis specificity, cross-sectional, skip). Neither qualifies.
+- Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
+- Dedupe keys: no new PMIDs.
