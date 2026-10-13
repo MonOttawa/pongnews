@@ -449,3 +449,10 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 - All other hits previously covered or dispositioned (per Sep-9 through Oct-11 notes; 42856891 covered as Oct-11 poll, 42853108 as Oct-10 poll, 42849573/42846457/42818329 noise/dispositioned).
 - Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
 - Dedupe keys: no new PMIDs banked.
+
+### Oct-13-26 sweep note (cron run, Tuesday Cognitive slot)
+- PubMed sweeps via approved script: (1) TT/ping-pong + cognition/dementia/brain 2024:2026 (15 hits), (2) crdt 2026/10/09-10/13 creation window (1 hit), (3) pdat 2026/09/25-10/13 window (one transient esearch JSON error, retried OK; 4 hits), (4) racket/net sports + cognition/brain terms 2025:2026 (10 hits). SORT:date term-form returns empty via script; recency covered by windows instead.
+- All TT-relevant PMIDs already covered or dispositioned per Aug-31 through Oct-12 notes (42856891 Oct-11 poll; 42784385 Sep-27 article; 42705582 Sep-8 article; 42600076 Aug-31 article; 42597548/42131533 covered Sep-9; 42454977 NeuroPong; 42439870 Sep-12 poll; 42418479 too weak; 42359304 Aug-1 article; 42321591 Sep-6 draft article; 42289665 Jun-18 article; 42214165 RETRACTED).
+- New since Oct-12: **PMID 42815702** (Yang H, Lan S, Mao Y, Zhang Y, Wang C, Miao H, Chi L. Expert advantage in multisensory anticipation during sport depends on integrable audiovisual evidence. Psychol Sport Exerc. 2026 Sep 30;88:103271. DOI 10.1016/j.psychsport.2026.103271). Abstract verified via efetch this run: 3 experiments, badminton experts vs novices, drift-diffusion modeling of audiovisual anticipation cues. Disposition: BADMINTON-specific, perceptual-cognitive performance (no health claim) → fails TT specificity and health-benefit bars for both MODE 1 and MODE 2. Skip.
+- Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
+- Dedupe keys: no new PMIDs banked.
