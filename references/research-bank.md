@@ -487,3 +487,13 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 - All other hits previously covered or dispositioned (42876602 Oct-16 draft; 42866086 Oct-14 poll; 42849573/42846457/42818329 noise/dispositioned; 42798353/42784385/42783628/42688525/42600076/42597548/42583567/42454977 covered; engineering/tactical IDs unchanged).
 - Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
 - Dedupe keys: no new PMIDs banked.
+
+## Coverage Log — 2026-10-18 (Sunday deep dive, draft)
+
+**NEW ARTICLE (DRAFT, pending review — not deployed):** `table-tennis-mental-fatigue-harder-landings-injury-risk.md` — "A Tired Brain Lands Harder: Mental Fatigue Raised Side-Impact Forces 23% in Table Tennis Players" (Physical Health / injury prevention).
+
+**Primary:** Li Q, Meng L, Wang Y, Wang Y, Yang Z. Front Psychol 2026;17:1871714. PMID 42890198. DOI 10.3389/fpsyg.2026.1871714. Randomized crossover, n=24 collegiate players. 45-min Stroop vs documentary → choice-reaction chasse step on force plates. Full-text verified (Frontiers CC-BY, Table 1 raw means): vGRF 1.41→1.53 BW (+8.5%, d=0.75); loading rate 34.68→40.47 BW/s (+17%, d=0.97); MLGRF 0.52→0.64 BW (+23%, d=0.93); ankle dorsiflexion ↓ d=0.57; knee flexion stabilization 46.86→43.61 deg (d=0.72); knee ext moment −10.5% (d=0.67); PMT d=4.26, CCT d=6.03 (dz-inflated per authors). Mode: article.
+
+**Secondary:** Habay 2021 (PMID 34948514, IJERPH) — first-use; Ding 2024 systematic review (PMID 39187902, BMC SSMA) — first-use.
+
+**Sweep note (2026-10-18):** only 42890198 new since Oct-17 sweep; other candidates (42856891 N200/P300 meta-analysis, 42866086 psychoradiology, 42705582 attentional flexibility) held as MODE 2 fallbacks.
