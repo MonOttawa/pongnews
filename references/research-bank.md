@@ -497,3 +497,11 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 **Secondary:** Habay 2021 (PMID 34948514, IJERPH) — first-use; Ding 2024 systematic review (PMID 39187902, BMC SSMA) — first-use.
 
 **Sweep note (2026-10-18):** only 42890198 new since Oct-17 sweep; other candidates (42856891 N200/P300 meta-analysis, 42866086 psychoradiology, 42705582 attentional flexibility) held as MODE 2 fallbacks.
+
+## Coverage Log — 2026-10-19 (Monday Longevity slot, sweep only)
+
+- Longevity/mortality query (TT + ping pong + longevity/mortality/lifespan/survival/all-cause, 2024:2026): zero usable hits — rest were "ping-pong mechanism" biochem/clinical-case noise. Racket-sport mortality sweep: 41574252 (BMJ Med Han), 40617544 (Prev Med Ko), 39129051 (Geroscience Altulea) all already banked; 41613277 (Am J Lifestyle Med 2026, Orchard et al., death rates of elite/professional AMERICAN athletes — big-4 US sports, zero racket/TT content) dispositioned as off-topic for Pong News.
+- Full Sep-Oct 2026 TT/ping-pong sweep (script, 30 hits): all covered/dispositioned per prior notes. 42890198 (mental-fatigue stiff-landing RCT) = yesterday's Oct-18 draft article, verified on disk + git 9851bbd. 42856891/42866086/42705582 already covered (Oct-11 poll / Oct-14 poll / Sep-8 article). 42798353/42784385/42783628/42876602/42454977 etc. covered Oct-16 through Sep-26. Biochem/clinical "ping-pong" noise unchanged.
+- Fresh creation-date sweep (crdt 2026/10/16-10/19): 2 hits. 42890198 = covered Oct-18. **42892861 NEW** (Patel P, Vaishnav J. Effect of a Four-Week Thrower's Ten Exercise Program on Upper Extremity Dynamic Balance and Strength in Racket Sports Players. Cureus 2026 Sep) — DISPOSITIONED, not usable: uncontrolled single-group pre-post (authors themselves state a control group is needed to rule out practice effects/natural variation, UQYBT practice effects flagged), mixed "racket sports players" with no table tennis specificity, Cureus tier. Fails MODE 1 (no strong evidence) and MODE 2 (not a TT study).
+- Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
+- Dedupe keys: 42892861 (evaluated + dispositioned); 41613277 (evaluated + dispositioned).
