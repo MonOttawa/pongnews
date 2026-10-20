@@ -505,3 +505,11 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 - Fresh creation-date sweep (crdt 2026/10/16-10/19): 2 hits. 42890198 = covered Oct-18. **42892861 NEW** (Patel P, Vaishnav J. Effect of a Four-Week Thrower's Ten Exercise Program on Upper Extremity Dynamic Balance and Strength in Racket Sports Players. Cureus 2026 Sep) — DISPOSITIONED, not usable: uncontrolled single-group pre-post (authors themselves state a control group is needed to rule out practice effects/natural variation, UQYBT practice effects flagged), mixed "racket sports players" with no table tennis specificity, Cureus tier. Fails MODE 1 (no strong evidence) and MODE 2 (not a TT study).
 - Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
 - Dedupe keys: 42892861 (evaluated + dispositioned); 41613277 (evaluated + dispositioned).
+
+## Coverage Log — 2026-10-20 (Tuesday Cognitive Health slot, sweep only)
+
+- Cognitive query (TT/ping pong + cognit*/dementia/brain, 2025:2026, 15 hits): all covered/dispositioned per prior notes — 42890198 (Oct-18 draft article), 42866086 (Oct-14 poll), 42856891 (Oct-11 poll), 42705582 (Sep-8 article), 42600076 (Aug-31 article), 42597548 (Sep-9), 42491224 (dispositioned Sep-10), 42454977 (NeuroPong covered), 42439870 (Sep-12 poll), 42418479 (judged too weak Sep-28), 42359304 (Aug-1 article), 42321591 (Sep-6), 42289665 (Jun-18 article), 42214165 (RETRACTED — never use), 42784385 (Sep-27 article).
+- Broader cognitive angle (TT + executive function/dementia/mild cognitive impairment, 20 hits): nothing new — all pre-existing banked classics (41651250, 41376735, 41197370, 40722112, 39201898, etc.) or clinical-case/biochem noise.
+- Fresh creation-date sweep (crdt 2026/10/15-10/21): 2 hits, both covered (42890198 Oct-18 draft; 42876602 Oct-16 draft).
+- Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
+- Dedupe keys: none new.
