@@ -513,3 +513,15 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 - Fresh creation-date sweep (crdt 2026/10/15-10/21): 2 hits, both covered (42890198 Oct-18 draft; 42876602 Oct-16 draft).
 - Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
 - Dedupe keys: none new.
+
+## Coverage Log — 2026-10-21 (Wednesday Physical Health slot, sweep only)
+
+- Full TT/ping-pong/racket 2025:2026 recency sweep (script, 30 hits): all covered or dispositioned per prior notes — 42876602 (Oct-16 draft), 42890198 (Oct-18 draft), 42892861 (dispositioned Oct-19, Thrower's Ten), 42856891 (Oct-11 poll), 42866086 (Oct-14 poll), 42372568 (dispositioned Oct-8, US ED injury surveil), 42783628/42760992/42713574/42688525/42691015 etc. unchanged; rest = biochem/clinical "ping-pong" noise.
+- Fresh creation-date sweep (crdt 2026/10/20-10/26): ZERO results.
+- TT + physical-health terms (fitness/strength/balance/aging/older/injury/rehab, dp 2026/10+): only 42890198 (covered) and 42372568 (dispositioned).
+- TT + cognitive/mental-health/exergame/VR/Parkinson (dp 2026/09/15+): 42890198, 42866086, 42856891 — all covered.
+- Racket/net sports + health/mortality/fitness/cognition (dp 2026/09/15+): only 42856891 (covered). One transient esummary JSON failure on first attempt, retry succeeded (same flake as Oct-14).
+- Pending human-review drafts unchanged: table-tennis-combined-bfr-heavy-lifting-strength-stroke-rct (Oct-16), table-tennis-mental-fatigue-harder-landings-injury-risk (Oct-18), plus earlier queue.
+- Skill drift note: pongnews-review-publish.py does NOT exist at ~/.hermes/scripts/ (Stage 2 path in SKILL.md is stale); Stage 2 has not been re-verified this run.
+- Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
+- Dedupe keys: none new.
