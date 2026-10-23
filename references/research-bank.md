@@ -525,3 +525,18 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 - Skill drift note: pongnews-review-publish.py does NOT exist at ~/.hermes/scripts/ (Stage 2 path in SKILL.md is stale); Stage 2 has not been re-verified this run.
 - Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
 - Dedupe keys: none new.
+
+## Coverage Log — 2026-10-22 (Thursday Rehabilitation slot, sweep only)
+
+- Rehab-focused recency sweep (TT/ping pong + rehab/stroke/Parkinson/older adults/falls/injury prevention, 2025:2026, 15 hits): all covered or dispositioned — 42890198 (Oct-18 draft), 42876602 (Oct-16 draft), 42798353 (Sep-26 article), 42784385 (Sep-27 article), 42783628/42760992 (dispositioned, performance/engineering), 42744861/42647296 (irrelevant biochem/case-report noise), 42600076 (Aug-31 article), 42591174 (dispositioned, PE platform not health), 42583567 (youth injury article), 42529065 (covered), 42454977 (NeuroPong covered), 42564242 (engineering).
+- Fresh creation-date sweeps (crdt 2026/10/19-10/22 and 10/16-10/22): only 42890198 (covered). Zero new records.
+- Targeted rehab queries (TT + rehab Oct 2026; ping pong + Parkinson 2026): no results / only covered items (41745666 rapid review).
+- Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
+- Dedupe keys: none new.
+
+## Coverage Log — 2026-10-23 (Friday Mental Health slot, MODE 2 poll)
+
+- Mental-health/social rotation query (TT/ping pong + MH/social/wellbeing terms, dp 2026/09/01-10/24, 20 hits): only 42846457 (dispositioned Sep-26, sleep hygiene not TT-specific-health) and 42454977 (NeuroPong, covered) — one transient esummary JSON flake, retry succeeded (same as Oct-14/Oct-21).
+- Fresh creation-date sweep (crdt 2026/10/19-10/24): 1 new record — **PMID 42905954** (Chen Y, Zhang G, Wang Y, Bae GY, Lu Y. Motor Expertise Differentiates the Representational Structure of Graded Error Monitoring in Midfrontal Theta. Ann N Y Acad Sci. 2026 Oct;1564(1), first published online 2026-10-21). Abstract verified via Wiley/Ovid listing (Europe PMC not yet indexed): graded-deviation paradigm, table tennis experts vs novices; experts more accurate/stable as deviation angles rose 0°-30°; frontal-midline theta scaled with deviation magnitude in BOTH groups, but experts showed a three-step graded organization vs novices' binary pattern; multivariate decoding found error-magnitude information only in frontal-midline region, decoding accuracy higher in experts.
+- Disposition: MODE 2 poll news — mechanistic EEG/neural-correlate study (expertise-dependent error coding), no actionable health claim. Poll posted to PongNews TG topic via cron delivery; no article file, no site publish.
+- Dedupe keys: PMID 42905954 (new, covered as poll).
