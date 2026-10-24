@@ -540,3 +540,10 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 - Fresh creation-date sweep (crdt 2026/10/19-10/24): 1 new record — **PMID 42905954** (Chen Y, Zhang G, Wang Y, Bae GY, Lu Y. Motor Expertise Differentiates the Representational Structure of Graded Error Monitoring in Midfrontal Theta. Ann N Y Acad Sci. 2026 Oct;1564(1), first published online 2026-10-21). Abstract verified via Wiley/Ovid listing (Europe PMC not yet indexed): graded-deviation paradigm, table tennis experts vs novices; experts more accurate/stable as deviation angles rose 0°-30°; frontal-midline theta scaled with deviation magnitude in BOTH groups, but experts showed a three-step graded organization vs novices' binary pattern; multivariate decoding found error-magnitude information only in frontal-midline region, decoding accuracy higher in experts.
 - Disposition: MODE 2 poll news — mechanistic EEG/neural-correlate study (expertise-dependent error coding), no actionable health claim. Poll posted to PongNews TG topic via cron delivery; no article file, no site publish.
 - Dedupe keys: PMID 42905954 (new, covered as poll).
+
+## Coverage Log — 2026-10-24 (Saturday Comparative slot, sweep only)
+
+- Full TT/ping-pong recency sweep (2025:2026, 30 hits) + fresh creation-date sweep (crdt 2026/10/20-10/26) + comparative-angle query (TT + racket/net sports + health/mortality/fitness/cognition/comparison terms, 15 hits): all covered or dispositioned per prior notes — 42905954 (Oct-23 poll), 42890198 (Oct-18 draft), 42876602 (Oct-16 draft), 42866086 (Oct-14 poll), 42856891 (Oct-11 poll), 42798353/42688525/42600076/42597548/42583567/42529065/42491224/42321591/42299533/42289665/42259397/42180837/42082994/42014179/41958816 covered; 42846457/42783628/42760992/42713574/42691015/42602004/42591174/42137624/42076550 dispositioned; rest = biochem/clinical "ping-pong/squash" noise.
+- Creation-date window contained only 42905954 (covered yesterday as poll).
+- Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
+- Dedupe keys: none new.
