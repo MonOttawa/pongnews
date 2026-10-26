@@ -547,3 +547,23 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 - Creation-date window contained only 42905954 (covered yesterday as poll).
 - Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
 - Dedupe keys: none new.
+
+## Coverage Log — 2026-10-25 (Sunday deep-dive slot, sweep only)
+
+- Date-window sweep (dp 2026/09/20-2026/10/25, TT + ping pong TiAb): all covered or noise — 42905954 (Oct-23 poll), 42890198 (Oct-18 draft), 42876602 (Oct-16 draft), 42856891 (Oct-11 poll), 42846457 (dispositioned Sep-26); rest = biochem/clinical "ping-pong mechanism" noise (42849573, 42818329, 42765862, 42744861, 42567156, 42392281).
+- Fresh creation-date sweep (crdt 2026/10/20-10/26): only 42905954 (covered Oct-23).
+- Health-terms sweep (TT/ping pong x health/cognition/dementia/depression/rehab/elderly/older/brain/fitness/longevity, dp 2026/10/01-10/26): zero results.
+- Racket-sport health sweep (racket/racquet sports x health/mortality/longevity/cognition/fitness, dp 2026/10/05-10/26): zero results.
+- Sunday deep-dive slot: no uncovered landmark study qualifies (all classics already banked with articles). No reuse per rules.
+- Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
+- Dedupe keys: none new.
+
+## Coverage Log — 2026-10-26 (Monday Longevity slot, sweep only)
+
+- Longevity rotation query (TT/ping pong + longevity/mortality/lifespan/survival/all-cause, 15 hits): all noise or covered — cardiology/biochem "ping-pong" metaphors (42470420, 42204434, piRNA/biochem cluster), 42018523 match-analysis survival study (performance, not health; dispositioned category).
+- Full TT/ping-pong recency sweep (2025:2026, 30 hits): all covered or dispositioned per prior notes — 42905954 (Oct-23 poll), 42890198 (Oct-18 draft), 42876602 (Oct-16 draft), 42866086 (Oct-14 poll), 42856891 (Oct-11 poll); rest noise/dispositioned.
+- Fresh creation-date sweeps (crdt 2026/10/23-10/26 and 10/21-10/26): only 42905954 (covered Oct-23). Zero new records.
+- Racket-sport longevity sweep (racket/racquet + mortality/longevity/lifespan/survival, 2025:2026): only 39129051 (Altulea, covered).
+- Health-terms date-window sweep (TT/ping pong x health/aging/elderly/fitness/dementia/depression, dp 2026/10/10-10/26): zero results.
+- Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
+- Dedupe keys: none new.
