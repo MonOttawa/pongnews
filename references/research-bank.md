@@ -567,3 +567,11 @@ Sweep note (2026-09-16 evening rerun, no eligible study — [SILENT] day):
 - Health-terms date-window sweep (TT/ping pong x health/aging/elderly/fitness/dementia/depression, dp 2026/10/10-10/26): zero results.
 - Conclusion: no genuinely new, uncovered table-tennis health study this sweep. MODE 1/MODE 2 not triggered. Silent run.
 - Dedupe keys: none new.
+
+## Coverage Log — 2026-10-27 (Tuesday Cognitive slot)
+
+- Cognitive rotation query (TT/ping pong + cognit*/dementia/brain, 2025:2026, 15 hits): all covered or dispositioned per prior notes — 42890198 (Oct-18 draft), 42866086 (Oct-14 poll), 42856891 (Oct-11 poll), 42705582 (Sep-8 article), 42600076 (Aug-31 article), 42597548 (Sep-9), 42491224 (dispositioned), 42454977 (NeuroPong covered), 42439870 (Sep-12 poll), 42418479 (judged too weak Sep-28), 42359304 (Aug-1 article), 42321591 (Sep-6), 42289665 (Jun-18 article), 42214165 (RETRACTED), 42784385 (Sep-27 article).
+- Fresh creation-date sweep (crdt 2026/10/20-10/27): 2 new records. 42934732 (Wang R, BMC Sports Sci Med Rehabil — Bayesian NN model predicting physical fitness consumption) DISPOSITIONED: engineering/predictive-modeling, not health. **42931557 NEW** (Centeno A, González-Jiménez R, Bernárdez-Vilaboa R, Cedrún-Sánchez JE, Han M. Blink Behaviour, Pupil Diameter, and Technical Performance in Elite Male Table Tennis Players: A Wearable Eye-Tracking Study. Sports (Basel). 2026 Oct 1;14(10):420. DOI 10.3390/sports14100420). Abstract verified via DOI/publisher listing: 17 elite male players, robot-fed 56-ball protocol (50 forehand topspin strokes analysed); blink frequency positively associated with stroke accuracy score (Spearman rho = 0.624, p = 0.010), total blink count weaker tendency (rho = 0.496, p = 0.051); no blink-velocity or pupil-diameter associations. Cross-sectional exploratory, small n, performance not health.
+- Related check: Guiseris-Santaflorentina Hum Mov Sci 2026 eye-tracking study (PMID 41412104) already banked — not re-covered.
+- Disposition: MODE 2 poll news — mechanistic/observational perceptual-cognitive study, no actionable health claim. Poll delivered via cron response; no article file, no site publish.
+- Dedupe keys: PMID 42931557 (new, covered as poll); 42934732 (dispositioned, engineering).
