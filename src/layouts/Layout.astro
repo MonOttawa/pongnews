@@ -120,7 +120,18 @@ const currentYear = new Date().getFullYear();
         }
       ]
     })} />
-  </head>
+  <script defer src="https://umami.rosehilltech.com/script.js" data-website-id="c3020863-4ade-4ff9-ae00-7e4365857245"></script>
+
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest?e.target.closest('a[href]'):null;if(!a)return;
+  var h=a.getAttribute('href')||'',n=null;
+  if(h.indexOf('tel:')===0)n='clic_appel';else if(h.indexOf('mailto:')===0)n='clic_courriel';
+  else if(/\.pdf($|\?)/i.test(h))n='clic_pdf';else if(/facebook\.com/i.test(h))n='clic_facebook';
+  if(n&&window.umami){try{umami.track(n,{cible:h.slice(0,80)})}catch(_){}}
+},true);
+</script>
+</head>
   <body>
     <!-- SVG Noise Grain Overlay -->
     <div class="grain"></div>
