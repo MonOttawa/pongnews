@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import EquipmentPick from '../../components/EquipmentPick.astro';
 import { getCollection, render } from 'astro:content';
 import { marked } from 'marked';
 
@@ -76,6 +77,11 @@ const related = allArticles
 
     <!-- Ad slot (inert until AdSense is configured) -->
     <AdSlot slot="article_bottom" />
+
+    <!-- Equipment picks (from frontmatter `equipment`, if present) -->
+    {article.data.equipment && article.data.equipment.length > 0 && (
+      <EquipmentPick ids={article.data.equipment} />
+    )}
 
     <!-- Sources -->
     {article.data.sources.length > 0 && (

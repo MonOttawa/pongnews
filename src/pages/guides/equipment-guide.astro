@@ -1,0 +1,108 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EquipmentPick from '../../components/EquipmentPick.astro';
+---
+
+<Layout
+  title="The Science-Backed Table Tennis Equipment Guide (2026) | Pong News"
+  description="Table tennis equipment recommendations grounded in peer-reviewed health research: the lightest paddles for older adults, any-table setups for beginners, home tables, and solo-practice robots."
+>
+  <div class="guide-page container">
+    <header class="guide-header">
+      <a href="/" class="guide-header__crumb">&#8592; Pong News</a>
+      <h1 class="guide-header__title">The Science-Backed Equipment Guide</h1>
+      <p class="guide-header__lede">
+        The health research is unambiguous: the benefits of table tennis come from playing
+        regularly, not from expensive gear. This guide picks equipment for one job each —
+        removing the barriers between you and three sessions a week — and links every pick
+        to the peer-reviewed research behind it. All listings verified November 2026.
+      </p>
+    </header>
+
+    <section class="guide-section">
+      <h2 class="guide-section__title">1. Start playing this weekend (no table needed)</h2>
+      <p class="guide-section__prose">
+        The single biggest predictor of sticking with table tennis is whether a game is
+        available when you have ten spare minutes. A clamp-on net turns a kitchen table or
+        a picnic bench into a court in seconds.
+      </p>
+      <EquipmentPick ids={['prospin-starter-set', 'prospin-net', 'joola-training-balls']} heading="Any-table starter picks" />
+    </section>
+
+    <section class="guide-section">
+      <h2 class="guide-section__title">2. Paddles chosen for the players research cares about most</h2>
+      <p class="guide-section__prose">
+        Studies in older adults and people with Parkinson&rsquo;s disease emphasize manageable
+        equipment and long rallies. Light, control-first paddles keep the ball in play —
+        which keeps the player moving, thinking, and coming back tomorrow.
+      </p>
+      <EquipmentPick ids={['stiga-apex', 'killerspin-jet200', 'stiga-talon']} heading="Paddle picks" />
+    </section>
+
+    <section class="guide-section">
+      <h2 class="guide-section__title">3. When you&rsquo;re ready for a table at home</h2>
+      <p class="guide-section__prose">
+        An eight-week trial in adults 45&ndash;69 found three hour-long sessions a week was
+        enough to measurably improve blood-vessel function. The participants had one thing
+        in common: a place to play. These are the two tables that make that easiest —
+        indoors and out.
+      </p>
+      <EquipmentPick ids={['joola-inside-13', 'stiga-xtr-outdoor']} heading="Home table picks" />
+    </section>
+
+    <section class="guide-section">
+      <h2 class="guide-section__title">4. No partner? Practice anyway.</h2>
+      <p class="guide-section__prose">
+        Stroke-rehabilitation research relies on repetitive, on-demand practice. A serving
+        robot delivers exactly that at home — no scheduling, no opponent required.
+      </p>
+      <EquipmentPick ids={['ipong-v300', 'joola-training-balls']} heading="Solo practice picks" />
+    </section>
+  </div>
+</Layout>
+
+<style>
+  .guide-page {
+    padding: 3rem 20px 4rem;
+    max-width: 880px;
+  }
+  .guide-header__crumb {
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    color: rgba(45, 45, 44, 0.6);
+    text-decoration: none;
+  }
+  .guide-header__crumb:hover {
+    color: var(--garnet-dark);
+  }
+  .guide-header__title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 1.15;
+    margin: 0.6rem 0 1rem;
+  }
+  .guide-header__lede {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: rgba(45, 45, 44, 0.82);
+    max-width: 66ch;
+    margin: 0 0 2.5rem;
+  }
+  .guide-section {
+    margin-bottom: 3rem;
+  }
+  .guide-section__title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 1.45rem;
+    margin: 0 0 0.7rem;
+  }
+  .guide-section__prose {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: rgba(45, 45, 44, 0.8);
+    max-width: 66ch;
+    margin: 0 0 0.5rem;
+  }
+</style>

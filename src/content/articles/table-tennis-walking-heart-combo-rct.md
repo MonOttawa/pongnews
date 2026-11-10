@@ -12,6 +12,10 @@ sources:
     url: "https://doi.org/10.1093/eurheartj/ehad827"
   - text: "Li H, Ahn H, Shin M. Table tennis as a sustainable health intervention: a meta-analysis of its effects on balance and cognitive functions. Healthcare (Basel). 2026;14(5):675. DOI: 10.3390/healthcare14050675. PMID: 41827628."
     url: "https://doi.org/10.3390/healthcare14050675"
+equipment:
+  - prospin-net
+  - killerspin-jet200
+  - joola-training-balls
 ---
 
 **DRAFT ARTICLE - Ready for Review**

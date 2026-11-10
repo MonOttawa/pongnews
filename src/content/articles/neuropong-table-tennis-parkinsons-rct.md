@@ -10,6 +10,10 @@ sources:
   - "Li H, Ahn H, Shin M. Effects of table tennis on balance and cognitive function - a meta-analysis of 14 randomized controlled trials. Healthcare (Basel). 2026;14(5):675. PMID 41827628."
   - "Khalid A, Khalid R. Table tennis for Parkinson's disease - motor, cognitive, and psychosocial benefits. Cureus. 2025;17(11):e96383. PMID 41376735."
 image: "/images/neuropong-parkinsons-clinical-trial.jpg"
+equipment:
+  - killerspin-jet200
+  - ipong-v300
+  - joola-training-balls
 ---
 
 # NeuroPong -  Structured Table Tennis Program Improves Parkinson's Motor Function by 18%

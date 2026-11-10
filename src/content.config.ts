@@ -18,6 +18,9 @@ const articles = defineCollection({
       })
     ])),
     image: z.string().optional(),
+    // Equipment pick IDs (see src/data/equipment.ts). Optional --
+    // renders science-backed product cards at the bottom of the article.
+    equipment: z.array(z.string()).optional(),
   }),
 });
 

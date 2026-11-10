@@ -15,6 +15,9 @@ sources:
   - text: "Benefits of Table Tennis for Brain Health Maintenance and Prevention of Dementia. Encyclopedia (MDPI). 2022;2(3):107."
     url: "https://doi.org/10.3390/encyclopedia2030107"
 image: "/images/brain-health.jpg"
+equipment:
+  - prospin-starter-set
+  - joola-training-balls
 ---
 
 # Table Tennis vs. Alzheimer's: The Brain Sport Science

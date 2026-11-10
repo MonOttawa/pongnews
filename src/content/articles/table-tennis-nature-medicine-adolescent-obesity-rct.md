@@ -12,6 +12,10 @@ sources:
     url: "https://doi.org/10.3390/healthcare14050675"
   - text: "Quan T, Ye J, Yu Q, Zhu F, Zhang L. Comparative effectiveness of 12-week open- and closed-skill exercises on executive function in children with ADHD and developmental dyslexia: a randomized controlled trial. BMC Pediatrics. 2026;26(1):775. DOI: 10.1186/s12887-026-07105-w. PMID: 42289665."
     url: "https://doi.org/10.1186/s12887-026-07105-w"
+equipment:
+  - prospin-starter-set
+  - joola-inside-13
+  - joola-training-balls
 ---
 
 **DRAFT ARTICLE - Ready for Review**
